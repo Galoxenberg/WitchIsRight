@@ -570,7 +570,7 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(-437.4,-186.8,1461.8,413.1);
-p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-437.4,-184.3,1461.8,411.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-438,-184.1,1464.5,411.6), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-438,-184.7,1460.4,412.2), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
+p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-437.4,-184.3,1461.8,411.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-438,-184,1464.5,411.5), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-438,-184.6,1460.4,412.1), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
 
 
 (lib.Path_1 = function(mode,startPosition,loop,reversed) {
@@ -3341,13 +3341,13 @@ if (reversed == null) { reversed = false; }
 
 	// עטלך_ודף
 	this.instance = new lib.LinkedFile();
-	this.instance.setTransform(-29,-29,0.115,0.115);
+	this.instance.setTransform(-23,-23,0.0916,0.0916);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.glutenFree, rect = new cjs.Rectangle(-29,-29,58.9,58.9), [rect]);
+}).prototype = getMCSymbolPrototype(lib.glutenFree, rect = new cjs.Rectangle(-23,-23,46.9,46.9), [rect]);
 
 
 (lib.fadeScreen = function(mode,startPosition,loop,reversed) {
@@ -6324,7 +6324,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = rect = new cjs.Rectangle(0,0,173.5,78.3);
+p.nominalBounds = rect = new cjs.Rectangle(0,-0.1,173.5,78.4);
 p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
 
 
@@ -11379,7 +11379,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = rect = new cjs.Rectangle(-2327.7,-109.5,4655.5,219.1);
+p.nominalBounds = rect = new cjs.Rectangle(-2327.7,-109.5,4655.5,219);
 p.frameBounds = [rect];
 
 
@@ -16550,8 +16550,8 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = rect = new cjs.Rectangle(0,0,4655.5,219.1);
-p.frameBounds = [rect, rect, new cjs.Rectangle(-0.1,0,4655.5,219.1), rect=new cjs.Rectangle(-0.2,0,4655.5,219.1), rect, new cjs.Rectangle(-0.3,0,4655.5,219.1), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219.1), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.2,4655.5,219.1), new cjs.Rectangle(-0.9,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219.1), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219.1), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219.1), rect, new cjs.Rectangle(-0.1,0,4655.5,219.1), rect=new cjs.Rectangle(-0.2,0,4655.5,219.1), rect, new cjs.Rectangle(-0.3,0,4655.5,219.1), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219.1), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.2,4655.5,219.1), new cjs.Rectangle(-0.9,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219.1), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219.1), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219.1), rect, new cjs.Rectangle(-0.1,0,4655.5,219.1), rect=new cjs.Rectangle(-0.2,0,4655.5,219.1), rect, new cjs.Rectangle(-0.3,0,4655.5,219.1), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219.1), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.2,4655.5,219.1), new cjs.Rectangle(-0.9,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219.1), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219.1), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219.1), rect, new cjs.Rectangle(-0.1,0,4655.5,219.1), rect=new cjs.Rectangle(-0.2,0,4655.5,219.1), rect, new cjs.Rectangle(-0.3,0,4655.5,219.1), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219.1), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.2,4655.5,219.1), new cjs.Rectangle(-0.9,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219.1), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219.1), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219.1), rect, new cjs.Rectangle(-0.1,0,4655.5,219.1), rect=new cjs.Rectangle(-0.2,0,4655.5,219.1), rect, new cjs.Rectangle(-0.3,0,4655.5,219.1), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219.1), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.2,4655.5,219.1), new cjs.Rectangle(-0.9,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219.1), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219.1), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219.1), rect, new cjs.Rectangle(-0.1,0,4655.5,219.1), rect=new cjs.Rectangle(-0.2,0,4655.5,219.1), rect, new cjs.Rectangle(-0.3,0,4655.5,219.1), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219.1), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219.1), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.1,4655.5,219.1), new cjs.Rectangle(-0.8,-0.2,4655.5,219.1), new cjs.Rectangle(-0.9,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219.1), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219.1), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219.1), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219.1), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219.1), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219.1), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
+p.nominalBounds = rect = new cjs.Rectangle(0,0,4655.5,219);
+p.frameBounds = [rect, rect, new cjs.Rectangle(-0.1,0,4655.5,219), rect=new cjs.Rectangle(-0.2,0,4655.5,219), rect, new cjs.Rectangle(-0.3,0,4655.5,219), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.2,4655.5,219), new cjs.Rectangle(-0.9,-0.2,4655.5,219), rect=new cjs.Rectangle(-1,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219), rect, new cjs.Rectangle(-0.1,0,4655.5,219), rect=new cjs.Rectangle(-0.2,0,4655.5,219), rect, new cjs.Rectangle(-0.3,0,4655.5,219), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.2,4655.5,219), new cjs.Rectangle(-0.9,-0.2,4655.5,219), rect=new cjs.Rectangle(-1,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219), rect, new cjs.Rectangle(-0.1,0,4655.5,219), rect=new cjs.Rectangle(-0.2,0,4655.5,219), rect, new cjs.Rectangle(-0.3,0,4655.5,219), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.2,4655.5,219), new cjs.Rectangle(-0.9,-0.2,4655.5,219), rect=new cjs.Rectangle(-1,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219), rect, new cjs.Rectangle(-0.1,0,4655.5,219), rect=new cjs.Rectangle(-0.2,0,4655.5,219), rect, new cjs.Rectangle(-0.3,0,4655.5,219), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.2,4655.5,219), new cjs.Rectangle(-0.9,-0.2,4655.5,219), rect=new cjs.Rectangle(-1,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219), rect, new cjs.Rectangle(-0.1,0,4655.5,219), rect=new cjs.Rectangle(-0.2,0,4655.5,219), rect, new cjs.Rectangle(-0.3,0,4655.5,219), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.2,4655.5,219), new cjs.Rectangle(-0.9,-0.2,4655.5,219), rect=new cjs.Rectangle(-1,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-0.8,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-0.9,-0.2,4657,219.3), rect=new cjs.Rectangle(-0.9,-0.1,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(0,0,4655.5,219), rect, new cjs.Rectangle(-0.1,0,4655.5,219), rect=new cjs.Rectangle(-0.2,0,4655.5,219), rect, new cjs.Rectangle(-0.3,0,4655.5,219), rect=new cjs.Rectangle(-0.4,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.5,-0.1,4655.5,219), rect=new cjs.Rectangle(-0.6,-0.1,4655.5,219), rect, new cjs.Rectangle(-0.7,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.1,4655.5,219), new cjs.Rectangle(-0.8,-0.2,4655.5,219), new cjs.Rectangle(-0.9,-0.2,4655.5,219), rect=new cjs.Rectangle(-1,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.1,-0.2,4655.5,219), rect=new cjs.Rectangle(-1.2,-0.2,4655.5,219), rect, new cjs.Rectangle(-1.3,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.4,-0.3,4655.5,219), rect, rect=new cjs.Rectangle(-1.5,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.6,-0.3,4655.5,219), rect=new cjs.Rectangle(-1.7,-0.3,4655.5,219), rect, new cjs.Rectangle(-1.8,-0.4,4655.5,219), new cjs.Rectangle(-3.7,-0.8,4659.3,219.9), rect=new cjs.Rectangle(-3.6,-0.8,4659.3,219.9), rect, new cjs.Rectangle(-3.5,-0.7,4659.3,219.9), new cjs.Rectangle(-3.4,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3.3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-3.2,-0.7,4659.3,219.9), new cjs.Rectangle(-3.1,-0.7,4659.3,219.9), rect=new cjs.Rectangle(-3,-0.7,4659.3,219.9), rect, new cjs.Rectangle(-2.9,-0.7,4659.3,219.9), new cjs.Rectangle(-2.8,-0.6,4659.3,219.9), new cjs.Rectangle(-2.7,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.6,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.5,-0.6,4659.3,219.9), new cjs.Rectangle(-2.4,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2.3,-0.6,4659.3,219.9), rect, new cjs.Rectangle(-2.2,-0.6,4659.3,219.9), new cjs.Rectangle(-2.1,-0.6,4659.3,219.9), rect=new cjs.Rectangle(-2,-0.5,4659.3,219.9), rect, new cjs.Rectangle(-1.9,-0.5,4659.3,219.9), new cjs.Rectangle(-1.8,-0.5,4659.3,219.9), rect=new cjs.Rectangle(-1.7,-0.5,4659.3,219.9), rect, rect=new cjs.Rectangle(-0.7,-0.2,4657,219.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
 
 
 (lib.success = function(mode,startPosition,loop,reversed) {
@@ -17696,7 +17696,7 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(-165.2,-85,297.9,182.2);
-p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-165.2,-81,297.9,178.2), rect=new cjs.Rectangle(-165.2,-80.1,297.9,177.3), rect, rect, rect, rect, rect, new cjs.Rectangle(-165.2,-80.1,297.9,180.2), rect=new cjs.Rectangle(-165.2,-80.1,297.9,179.1), rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-165.6,-80.1,298.8,179.1), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-165.6,-85,298.8,184), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
+p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-165.2,-81,297.9,178.2), rect=new cjs.Rectangle(-165.2,-80.1,297.9,177.3), rect, rect, rect, rect, rect, new cjs.Rectangle(-165.2,-80.1,297.9,180.1), rect=new cjs.Rectangle(-165.2,-80.1,297.9,179), rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-165.6,-80.1,298.8,179), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-165.6,-85,298.8,183.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
 
 
 (lib.note = function(mode,startPosition,loop,reversed) {
@@ -17871,10 +17871,11 @@ if (reversed == null) { reversed = false; }
 	// רקעים
 	this.quesTxt = new cjs.Text("", "20px 'Varela Round'");
 	this.quesTxt.name = "quesTxt";
+	this.quesTxt.textAlign = "center";
 	this.quesTxt.lineHeight = 28;
 	this.quesTxt.lineWidth = 398;
 	this.quesTxt.parent = this;
-	this.quesTxt.setTransform(205.85,63.85);
+	this.quesTxt.setTransform(33,62);
 
 	this.instance = new lib.Path_8_2();
 	this.instance.setTransform(-115.65,180,1,1,0,0,0,85,18.2);
@@ -17983,7 +17984,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.moon, rect = new cjs.Rectangle(-464.5,-222.8,1070.5,454.8), [rect]);
+}).prototype = getMCSymbolPrototype(lib.moon, rect = new cjs.Rectangle(-464.5,-222.8,941,454.8), [rect]);
 
 
 (lib.move_moon_open = function(mode,startPosition,loop,reversed) {
@@ -19604,8 +19605,8 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = rect = new cjs.Rectangle(-2.6,-102,1341.8,857.3);
-p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-11.9,-102,1351.1,857.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-2.6,-102,1341.8,857.3)];
+p.nominalBounds = rect = new cjs.Rectangle(-2.6,-102,1341.6,857.3);
+p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-11.9,-102,1350.9,857.3), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(-2.6,-102,1341.6,857.3)];
 
 
 (lib.Endanimationwitch_on_stick = function(mode,startPosition,loop,reversed) {
@@ -19867,7 +19868,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Endanimationwitch_on_stick, rect = new cjs.Rectangle(-257,-266.4,1382.1,1196.3), [rect]);
+}).prototype = getMCSymbolPrototype(lib.Endanimationwitch_on_stick, rect = new cjs.Rectangle(-257,-266.4,1382.1,1196.2), [rect]);
 
 
 (lib.endAnimationbat = function(mode,startPosition,loop,reversed) {
@@ -21488,6 +21489,61 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.witchBlack, rect = new cjs.Rectangle(0,0,49.6,37.6), [rect]);
 
 
+(lib.Tween1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#2B0558").ss(2,1,1).p("AgwgzIBjAyIhlA1");
+	this.shape.setTransform(40.4015,183.6921,2.8809,3.6069,80.9515);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f().s("#2B0558").ss(1,2,1).p("ABLhjIiVAAQgyAAAAAyIAABjQAAAyAyAAICVAAQAyAAAAgyIAAhjQAAgygyAAg");
+	this.shape_1.setTransform(39.9094,182.8953,2.8809,3.6069,80.9515);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#FFFFFF").s().p("AhKBkQgyAAAAgyIAAhjQAAgyAyAAICVAAQAyAAAAAyIAABjQAAAygyAAg");
+	this.shape_2.setTransform(39.9094,182.8953,2.8809,3.6069,80.9515);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f().s("#2B0558").ss(2,1,1).p("AgwgzIBjAyIhlA1");
+	this.shape_3.setTransform(26.3427,95.8685,2.8809,3.6069,0,80.9515,-99.0487);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f().s("#2B0558").ss(1,2,1).p("ABLhjIiVAAQgyAAAAAyIAABjQAAAyAyAAICVAAQAyAAAAgyIAAhjQAAgygyAAg");
+	this.shape_4.setTransform(26.1224,96.7787,2.8809,3.6069,0,80.9515,-99.0487);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#FFFFFF").s().p("AhKBkQgyAAAAgyIAAhjQAAgyAyAAICVAAQAyAAAAAyIAABjQAAAygyAAg");
+	this.shape_5.setTransform(26.1224,96.7787,2.8809,3.6069,0,80.9515,-99.0487);
+
+	this.text = new cjs.Text("השתמשו בחצי המקלדת", "42px 'Varela Round'", "#2B0558");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 57;
+	this.text.lineWidth = 264;
+	this.text.parent = this;
+	this.text.setTransform(0.4247,-59.5381,1,1,-9.2303);
+
+	this.instance = new lib.note();
+	this.instance.setTransform(0.2,-0.1,2.3047,2.3047,11.4966,0,0,-16.1,-21.7);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = rect = new cjs.Rectangle(-233.1,-297.2,518.8,639.7);
+p.frameBounds = [rect];
+
+
 (lib.windMove = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -22028,6 +22084,38 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(-35.8,-64.9,1342.5,823.9);
 p.frameBounds = [rect, new cjs.Rectangle(-35.8,-63.6,1342.5,822.6), new cjs.Rectangle(-35.8,-61.4,1342.5,820.4), new cjs.Rectangle(-35.8,-59.3,1342.5,818.3), new cjs.Rectangle(-35.8,-57,1342.5,816), new cjs.Rectangle(-35.8,-54.7,1342.5,813.7), new cjs.Rectangle(-35.8,-52.6,1342.5,811.6), new cjs.Rectangle(-35.8,-50.4,1342.5,809.4), new cjs.Rectangle(-35.8,-48.1,1342.5,807.1), new cjs.Rectangle(-35.8,-45.9,1342.5,804.9), new cjs.Rectangle(-35.8,-43.8,1342.5,802.8), new cjs.Rectangle(-35.8,-41.5,1342.5,800.5), new cjs.Rectangle(-35.8,-39.3,1342.5,798.3), new cjs.Rectangle(-35.8,-37.2,1342.5,796.2), new cjs.Rectangle(-35.8,-34.9,1342.5,793.9), rect=new cjs.Rectangle(-35.8,-32.9,1342.5,791.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
+
+
+(lib.howToPlay = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_120 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(120).call(this.frame_120).wait(1));
+
+	// Layer_1
+	this.instance = new lib.Tween1("synched",0);
+	this.instance.setTransform(284.15,158.05,0.5304,0.5304,7.1624);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:0.2,regY:0.1,rotation:8.629,x:284.25,y:158.1},30).to({regY:0.2,rotation:5.4165,y:158.15},45).to({regX:0.3,regY:0.5,rotation:4.4998,x:680.15,y:38.7},22).to({regX:0.1,regY:-0.2,rotation:0,x:1094.05,y:-86.4},23).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = rect = new cjs.Rectangle(176.6,5.3,209.5,311.1);
+p.frameBounds = [rect, new cjs.Rectangle(176.7,5.4,209.5,311), new cjs.Rectangle(176.8,5.5,209.5,310.9), new cjs.Rectangle(176.8,5.5,209.5,310.8), rect=new cjs.Rectangle(177,5.6,209.5,310.8), rect, new cjs.Rectangle(177.1,5.6,209.5,310.7), new cjs.Rectangle(177.1,5.7,209.5,310.6), new cjs.Rectangle(177.4,5.8,209.4,310.6), new cjs.Rectangle(177.4,5.8,209.5,310.5), new cjs.Rectangle(177.5,5.8,209.4,310.4), new cjs.Rectangle(177.5,5.9,209.5,310.3), new cjs.Rectangle(177.8,5.9,209.5,310.3), new cjs.Rectangle(177.8,5.9,209.5,310.2), new cjs.Rectangle(177.8,6,209.5,310.2), rect=new cjs.Rectangle(178,6.1,209.5,310.1), rect, new cjs.Rectangle(178.2,6.1,209.5,310), new cjs.Rectangle(178.2,6.1,209.5,309.8), new cjs.Rectangle(178.3,6.2,209.5,309.9), new cjs.Rectangle(178.4,6.3,209.5,309.8), new cjs.Rectangle(178.5,6.3,209.5,309.7), new cjs.Rectangle(178.6,6.3,209.5,309.6), new cjs.Rectangle(178.7,6.4,209.5,309.5), new cjs.Rectangle(178.8,6.5,209.4,309.5), new cjs.Rectangle(178.9,6.5,209.5,309.5), new cjs.Rectangle(179,6.6,209.4,309.3), new cjs.Rectangle(179,6.6,209.5,309.3), new cjs.Rectangle(179.1,6.6,209.5,309.3), new cjs.Rectangle(179.2,6.7,209.5,309.2), new cjs.Rectangle(179.2,6.6,209.5,309.1), new cjs.Rectangle(179.1,6.5,209.5,309.2), new cjs.Rectangle(178.9,6.5,209.5,309.3), new cjs.Rectangle(178.9,6.4,209.4,309.4), new cjs.Rectangle(178.7,6.3,209.4,309.5), new cjs.Rectangle(178.6,6.2,209.5,309.6), new cjs.Rectangle(178.5,6.2,209.5,309.7), new cjs.Rectangle(178.3,6.2,209.5,309.8), new cjs.Rectangle(178.2,6.1,209.5,309.8), new cjs.Rectangle(178.1,6.1,209.5,310), new cjs.Rectangle(177.9,6,209.4,310.1), new cjs.Rectangle(177.7,5.9,209.5,310.2), new cjs.Rectangle(177.6,5.8,209.5,310.2), new cjs.Rectangle(177.6,5.8,209.5,310.4), new cjs.Rectangle(177.4,5.7,209.4,310.5), new cjs.Rectangle(177.3,5.7,209.4,310.6), new cjs.Rectangle(177.2,5.6,209.5,310.7), new cjs.Rectangle(177,5.5,209.5,310.8), new cjs.Rectangle(176.9,5.5,209.5,310.8), new cjs.Rectangle(176.8,5.5,209.5,310.9), new cjs.Rectangle(176.6,5.4,209.5,311), new cjs.Rectangle(176.5,5.4,209.4,311), new cjs.Rectangle(176.4,5.3,209.4,311.2), new cjs.Rectangle(176.3,5.3,209.5,311.2), new cjs.Rectangle(176.1,5.2,209.4,311.3), new cjs.Rectangle(176,5.2,209.5,311.4), new cjs.Rectangle(175.9,5.2,209.5,311.5), new cjs.Rectangle(175.7,5.1,209.4,311.5), new cjs.Rectangle(175.7,5,209.4,311.7), new cjs.Rectangle(175.5,5,209.4,311.7), new cjs.Rectangle(175.3,4.9,209.4,311.8), new cjs.Rectangle(175.2,4.9,209.4,311.8), new cjs.Rectangle(175.1,4.8,209.4,312), new cjs.Rectangle(175,4.8,209.4,312), new cjs.Rectangle(174.9,4.7,209.3,312.2), new cjs.Rectangle(174.7,4.7,209.4,312.2), new cjs.Rectangle(174.6,4.6,209.4,312.3), new cjs.Rectangle(174.5,4.5,209.4,312.4), new cjs.Rectangle(174.4,4.5,209.4,312.5), new cjs.Rectangle(174.3,4.4,209.3,312.6), new cjs.Rectangle(174.2,4.4,209.3,312.6), new cjs.Rectangle(174,4.3,209.4,312.7), new cjs.Rectangle(173.9,4.3,209.3,312.8), new cjs.Rectangle(173.7,4.2,209.3,312.9), new cjs.Rectangle(173.6,4.2,209.3,312.9), new cjs.Rectangle(173.5,4,209.3,313.1), new cjs.Rectangle(191.4,-1.5,209.3,313.1), new cjs.Rectangle(209.4,-6.8,209.3,313.1), new cjs.Rectangle(227.2,-12.3,209.3,313.2), new cjs.Rectangle(245.2,-17.8,209.3,313.2), new cjs.Rectangle(263.1,-23.2,209.3,313.3), new cjs.Rectangle(281.1,-28.6,209.2,313.3), new cjs.Rectangle(299,-34.2,209.2,313.3), new cjs.Rectangle(316.9,-39.7,209.2,313.4), new cjs.Rectangle(334.8,-45.1,209.3,313.4), new cjs.Rectangle(352.8,-50.6,209.5,313.5), new cjs.Rectangle(370.7,-55.9,209.7,313.4), new cjs.Rectangle(388.6,-61.3,209.8,313.5), new cjs.Rectangle(406.5,-66.8,210,313.5), new cjs.Rectangle(424.4,-72.4,210.2,313.6), new cjs.Rectangle(442.4,-77.8,210.4,313.6), new cjs.Rectangle(460.3,-83.2,210.5,313.7), new cjs.Rectangle(478.2,-88.7,210.8,313.7), new cjs.Rectangle(496.2,-94.2,210.8,313.8), new cjs.Rectangle(514.1,-99.6,211.1,313.7), new cjs.Rectangle(532,-105,211.2,313.8), new cjs.Rectangle(549.9,-110.5,211.4,313.8), new cjs.Rectangle(567.8,-116.1,211.5,313.9), new cjs.Rectangle(585.5,-121.7,212.3,314.1), new cjs.Rectangle(603.1,-127.3,213.2,314.3), new cjs.Rectangle(620.9,-132.8,213.9,314.5), new cjs.Rectangle(638.5,-138.4,214.7,314.7), new cjs.Rectangle(656.2,-144,215.5,314.8), new cjs.Rectangle(673.8,-149.5,216.3,315), new cjs.Rectangle(691.5,-155.1,217.1,315.2), new cjs.Rectangle(709.2,-160.6,217.9,315.4), new cjs.Rectangle(726.8,-166.1,218.7,315.5), new cjs.Rectangle(744.5,-171.7,219.4,315.7), new cjs.Rectangle(762.2,-177.3,220.3,315.9), new cjs.Rectangle(779.9,-182.8,221,316), new cjs.Rectangle(797.6,-188.3,221.8,316.1), new cjs.Rectangle(815.2,-193.9,222.5,316.3), new cjs.Rectangle(833,-199.4,223.3,316.4), new cjs.Rectangle(850.6,-204.9,224.1,316.5), new cjs.Rectangle(868.3,-210.5,224.8,316.6), new cjs.Rectangle(886,-216,225.6,316.8), new cjs.Rectangle(903.6,-221.6,226.4,316.9), new cjs.Rectangle(921.3,-227.1,227.2,317), new cjs.Rectangle(939.1,-232.6,227.9,317.2), new cjs.Rectangle(956.8,-238.1,228.7,317.3), new cjs.Rectangle(974.5,-243.3,229.5,317.4)];
 
 
 (lib.finishBG = function(mode,startPosition,loop,reversed) {
@@ -24571,8 +24659,8 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = rect = new cjs.Rectangle(2085.7,896.2,403.2,182);
-p.frameBounds = [rect, rect, rect, rect, new cjs.Rectangle(406.6,89.1,2082.3,989.1), new cjs.Rectangle(424.8,94.2,2064,984), new cjs.Rectangle(443.1,99.4,2045.7,978.8), new cjs.Rectangle(461.3,104.5,2027.6,973.7), new cjs.Rectangle(479.6,109.7,2009.3,968.5), new cjs.Rectangle(497.7,114.9,1991.1,963.3), new cjs.Rectangle(516.1,120,1972.8,958.2), new cjs.Rectangle(534.3,125.2,1954.6,953), new cjs.Rectangle(552.5,130.4,1936.3,947.8), new cjs.Rectangle(570.7,135.6,1918.1,942.6), new cjs.Rectangle(588.9,140.7,1899.9,937.5), new cjs.Rectangle(607.2,145.9,1881.6,932.3), new cjs.Rectangle(625.5,151.1,1863.4,927.1), new cjs.Rectangle(643.7,156.2,1845.1,922), new cjs.Rectangle(661.9,161.4,1826.9,916.8), new cjs.Rectangle(680.2,166.6,1808.6,911.6), new cjs.Rectangle(698.4,171.7,1790.4,906.5), new cjs.Rectangle(716.7,176.9,1772.2,901.3), new cjs.Rectangle(734.9,182.1,1754,896.1), new cjs.Rectangle(753.1,187.2,1735.7,891), new cjs.Rectangle(771.4,192.4,1717.5,885.8), new cjs.Rectangle(789.7,197.5,1699.2,886.3), new cjs.Rectangle(807.9,202.7,1680.9,928.2), new cjs.Rectangle(826.1,207.8,1662.8,970.1), new cjs.Rectangle(844.3,213,1644.5,1012.1), new cjs.Rectangle(865,214.3,1623.8,1054), rect=new cjs.Rectangle(1461.4,278.8,1027.4,1207), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1461.4,278.8,1116.6,1207), rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1401.9), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1317.1), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1401.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1317.1), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1401.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(1150.6,244.3,1427.4,1207), new cjs.Rectangle(1137.8,239.5,1440.3,1207), new cjs.Rectangle(1124.9,234.8,1453.1,1207), new cjs.Rectangle(1112,230.1,1466,1207), new cjs.Rectangle(1099.2,225.3,1478.9,1207), new cjs.Rectangle(1086.3,220.6,1491.7,1207), new cjs.Rectangle(1073.5,215.9,1504.6,1207), new cjs.Rectangle(1060.6,211.1,1517.5,1207), new cjs.Rectangle(1047.7,206.4,1530.3,1207), new cjs.Rectangle(1034.9,201.7,1543.2,1206.9), new cjs.Rectangle(1022,196.9,1556,1206.9), new cjs.Rectangle(1009.2,192.2,1568.9,1206.9), new cjs.Rectangle(996.3,187.5,1581.8,1207), new cjs.Rectangle(983.4,182.7,1594.6,1207), new cjs.Rectangle(970.6,178,1607.5,1207), new cjs.Rectangle(957.7,173.2,1620.3,1207), new cjs.Rectangle(944.9,168.5,1633.2,1207), new cjs.Rectangle(932,163.8,1646.1,1207), new cjs.Rectangle(919.1,159,1658.9,1207), new cjs.Rectangle(906.3,154.3,1671.8,1207), new cjs.Rectangle(893.4,149.6,1684.6,1207), new cjs.Rectangle(880.5,144.8,1697.5,1207), new cjs.Rectangle(867.7,140.1,1710.4,1207), new cjs.Rectangle(854.8,135.4,1723.2,1207), new cjs.Rectangle(842,130.6,1736.1,1207), new cjs.Rectangle(829.1,125.9,1748.9,1207), new cjs.Rectangle(816.2,121.2,1761.8,1206.9), new cjs.Rectangle(803.4,116.4,1774.7,1206.9), new cjs.Rectangle(598.6,116.4,1979.5,1206.9), new cjs.Rectangle(601,116.4,1977,1206.9), new cjs.Rectangle(603.5,116.4,1974.6,1206.9), new cjs.Rectangle(605.9,116.4,1972.1,1206.9), new cjs.Rectangle(608.4,116.4,1969.7,1206.9), new cjs.Rectangle(610.9,116.4,1967.2,1206.9), new cjs.Rectangle(613.3,116.4,1964.7,1206.9), new cjs.Rectangle(615.8,116.4,1962.3,1206.9), new cjs.Rectangle(618.2,116.4,1959.8,1206.9), new cjs.Rectangle(620.7,116.4,1957.4,1206.9), new cjs.Rectangle(623.1,116.4,1954.9,1206.9), new cjs.Rectangle(625.6,116.4,1952.5,1206.9), new cjs.Rectangle(628,116.4,1950,1206.9), new cjs.Rectangle(630.5,116.4,1947.6,1206.9), new cjs.Rectangle(633,116.4,1945.1,1206.9), new cjs.Rectangle(635.4,116.4,1942.6,1206.9), new cjs.Rectangle(637.9,116.4,1940.2,1206.9), new cjs.Rectangle(640.3,116.4,1937.7,1206.9), new cjs.Rectangle(642.8,116.4,1935.3,1206.9), new cjs.Rectangle(639.6,116.4,1938.4,1206.9), new cjs.Rectangle(636.5,116.4,1941.6,1206.9), new cjs.Rectangle(633.3,116.4,1944.7,1206.9), new cjs.Rectangle(630.1,116.4,1947.9,1206.9), new cjs.Rectangle(627,116.4,1951.1,1206.9), new cjs.Rectangle(623.8,116.4,1954.2,1206.9), new cjs.Rectangle(620.7,116.4,1868.2,1206.9), new cjs.Rectangle(617.5,116.4,1871.3,1206.9), new cjs.Rectangle(614.4,116.4,1874.5,1206.9), new cjs.Rectangle(611.2,116.4,1877.6,1206.9), new cjs.Rectangle(608,116.4,1880.8,1206.9), new cjs.Rectangle(604.9,116.4,1884,1206.9), new cjs.Rectangle(601.7,116.4,1887.1,1206.9), new cjs.Rectangle(598.6,116.4,1890.3,1223.1), new cjs.Rectangle(600.8,116.4,1888.1,1223.1), new cjs.Rectangle(602.9,116.4,1885.9,1223.1), new cjs.Rectangle(605.1,116.4,1883.7,1223.1), new cjs.Rectangle(607.3,116.4,1881.6,1223.1), new cjs.Rectangle(609.5,116.4,1879.4,1223.1), new cjs.Rectangle(611.7,116.4,1877.2,1223.1), new cjs.Rectangle(613.8,116.4,1875,1223.1), new cjs.Rectangle(616,116.4,1872.8,1223.1), rect=new cjs.Rectangle(321.1,116.4,2167.8,1223.6), rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-77,-377.6,2565.9,1701), rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-231.6,-592,2720.5,1915.4), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
+p.nominalBounds = rect = new cjs.Rectangle(2085.7,896.1,403.2,182.1);
+p.frameBounds = [rect, rect, rect, rect, new cjs.Rectangle(406.6,89.1,2082.3,989.1), new cjs.Rectangle(424.8,94.2,2064,984), new cjs.Rectangle(443.1,99.4,2045.7,978.8), new cjs.Rectangle(461.3,104.5,2027.6,973.7), new cjs.Rectangle(479.6,109.7,2009.3,968.5), new cjs.Rectangle(497.7,114.9,1991.1,963.3), new cjs.Rectangle(516.1,120,1972.8,958.2), new cjs.Rectangle(534.3,125.2,1954.6,953), new cjs.Rectangle(552.5,130.4,1936.3,947.8), new cjs.Rectangle(570.7,135.6,1918.1,942.6), new cjs.Rectangle(588.9,140.7,1899.9,937.5), new cjs.Rectangle(607.2,145.9,1881.6,932.3), new cjs.Rectangle(625.5,151.1,1863.4,927.1), new cjs.Rectangle(643.7,156.2,1845.1,922), new cjs.Rectangle(661.9,161.4,1826.9,916.8), new cjs.Rectangle(680.2,166.6,1808.6,911.6), new cjs.Rectangle(698.4,171.7,1790.4,906.5), new cjs.Rectangle(716.7,176.9,1772.2,901.3), new cjs.Rectangle(734.9,182.1,1754,896.1), new cjs.Rectangle(753.1,187.2,1735.7,891), new cjs.Rectangle(771.4,192.4,1717.5,885.8), new cjs.Rectangle(789.7,197.5,1699.2,886.2), new cjs.Rectangle(807.9,202.7,1680.9,928.2), new cjs.Rectangle(826.1,207.8,1662.8,970.1), new cjs.Rectangle(844.3,213,1644.5,1012), new cjs.Rectangle(865,214.3,1623.8,1053.9), rect=new cjs.Rectangle(1461.4,278.8,1027.4,1207), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1461.4,278.8,1116.6,1207), rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1401.9), rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1317.1), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1401.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1317.1), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(1290.2,83.9,1287.8,1401.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(1150.6,244.3,1427.4,1207), new cjs.Rectangle(1137.8,239.5,1440.3,1207), new cjs.Rectangle(1124.9,234.8,1453.1,1207), new cjs.Rectangle(1112,230.1,1466,1207), new cjs.Rectangle(1099.2,225.3,1478.9,1207), new cjs.Rectangle(1086.3,220.6,1491.7,1207), new cjs.Rectangle(1073.5,215.9,1504.6,1207), new cjs.Rectangle(1060.6,211.1,1517.5,1207), new cjs.Rectangle(1047.7,206.4,1530.3,1207), new cjs.Rectangle(1034.9,201.7,1543.2,1206.9), new cjs.Rectangle(1022,196.9,1556,1206.9), new cjs.Rectangle(1009.2,192.2,1568.9,1206.9), new cjs.Rectangle(996.3,187.5,1581.8,1207), new cjs.Rectangle(983.4,182.7,1594.6,1207), new cjs.Rectangle(970.6,178,1607.5,1207), new cjs.Rectangle(957.7,173.2,1620.3,1207), new cjs.Rectangle(944.9,168.5,1633.2,1207), new cjs.Rectangle(932,163.8,1646.1,1207), new cjs.Rectangle(919.1,159,1658.9,1207), new cjs.Rectangle(906.3,154.3,1671.8,1207), new cjs.Rectangle(893.4,149.6,1684.6,1207), new cjs.Rectangle(880.5,144.8,1697.5,1207), new cjs.Rectangle(867.7,140.1,1710.4,1207), new cjs.Rectangle(854.8,135.4,1723.2,1207), new cjs.Rectangle(842,130.6,1736.1,1207), new cjs.Rectangle(829.1,125.9,1748.9,1207), new cjs.Rectangle(816.2,121.2,1761.8,1206.9), new cjs.Rectangle(803.4,116.4,1774.7,1206.9), new cjs.Rectangle(598.6,116.4,1979.5,1206.9), new cjs.Rectangle(601,116.4,1977,1206.9), new cjs.Rectangle(603.5,116.4,1974.6,1206.9), new cjs.Rectangle(605.9,116.4,1972.1,1206.9), new cjs.Rectangle(608.4,116.4,1969.7,1206.9), new cjs.Rectangle(610.9,116.4,1967.2,1206.9), new cjs.Rectangle(613.3,116.4,1964.7,1206.9), new cjs.Rectangle(615.8,116.4,1962.3,1206.9), new cjs.Rectangle(618.2,116.4,1959.8,1206.9), new cjs.Rectangle(620.7,116.4,1957.4,1206.9), new cjs.Rectangle(623.1,116.4,1954.9,1206.9), new cjs.Rectangle(625.6,116.4,1952.5,1206.9), new cjs.Rectangle(628,116.4,1950,1206.9), new cjs.Rectangle(630.5,116.4,1947.6,1206.9), new cjs.Rectangle(633,116.4,1945.1,1206.9), new cjs.Rectangle(635.4,116.4,1942.6,1206.9), new cjs.Rectangle(637.9,116.4,1940.2,1206.9), new cjs.Rectangle(640.3,116.4,1937.7,1206.9), new cjs.Rectangle(642.8,116.4,1935.3,1206.9), new cjs.Rectangle(639.6,116.4,1938.4,1206.9), new cjs.Rectangle(636.5,116.4,1941.6,1206.9), new cjs.Rectangle(633.3,116.4,1944.7,1206.9), new cjs.Rectangle(630.1,116.4,1947.9,1206.9), new cjs.Rectangle(627,116.4,1951.1,1206.9), new cjs.Rectangle(623.8,116.4,1954.2,1206.9), new cjs.Rectangle(620.7,116.4,1868.2,1206.9), new cjs.Rectangle(617.5,116.4,1871.3,1206.9), new cjs.Rectangle(614.4,116.4,1874.5,1206.9), new cjs.Rectangle(611.2,116.4,1877.6,1206.9), new cjs.Rectangle(608,116.4,1880.8,1206.9), new cjs.Rectangle(604.9,116.4,1884,1206.9), new cjs.Rectangle(601.7,116.4,1887.1,1206.9), new cjs.Rectangle(598.6,116.4,1890.3,1223.1), new cjs.Rectangle(600.8,116.4,1888.1,1223.1), new cjs.Rectangle(602.9,116.4,1885.9,1223.1), new cjs.Rectangle(605.1,116.4,1883.7,1223.1), new cjs.Rectangle(607.3,116.4,1881.6,1223.1), new cjs.Rectangle(609.5,116.4,1879.4,1223.1), new cjs.Rectangle(611.7,116.4,1877.2,1223.1), new cjs.Rectangle(613.8,116.4,1875,1223.1), new cjs.Rectangle(616,116.4,1872.8,1223.1), rect=new cjs.Rectangle(321.1,116.4,2167.8,1223.6), rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-77,-377.6,2565.9,1701), rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-231.6,-592,2720.5,1915.4), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
 
 
 (lib.endAnimationvilon = function(mode,startPosition,loop,reversed) {
@@ -24668,7 +24756,7 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(0,0,392.1,329.2);
-p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(362.9,258.6,176,60.2), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-68,0,460.1,347.2), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-190,-7.3,588.5,398.6), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-103.1,-7.3,568.4,398.6), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,397.2), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,399.6), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,397.7), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,382), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,359.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
+p.frameBounds = [rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(473.8,258.6,65.1,60.2), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-68,0,460.1,347.2), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-190,-7.3,588.5,398.6), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(-103.1,-7.3,568.4,398.6), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,397.2), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,399.6), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,397.7), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,382), rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(208.6,-7.3,471.1,359.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect];
 
 
 (lib.endAnimation = function(mode,startPosition,loop,reversed) {
@@ -25699,7 +25787,7 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(-108.8,-27.7,255.7,53.3);
-p.frameBounds = [rect, new cjs.Rectangle(-48,-22.7,194.9,48.4), new cjs.Rectangle(-48,-22.2,194.9,47.8)];
+p.frameBounds = [rect, new cjs.Rectangle(-48,-22.6,194.9,48.3), new cjs.Rectangle(-48,-22.1,194.9,47.7)];
 
 
 (lib.animationwitch = function(mode,startPosition,loop,reversed) {
@@ -26102,7 +26190,7 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(-779.6,52.1,2307.8,1453.2);
-p.frameBounds = [rect, new cjs.Rectangle(-772.4,52.1,2300.6,1451.8), new cjs.Rectangle(-765.3,52.1,2293.4,1450.5), new cjs.Rectangle(-758.1,52.1,2286.2,1449.2), new cjs.Rectangle(-750.9,52.1,2279,1447.9), new cjs.Rectangle(-743.7,52.1,2271.9,1446.5), new cjs.Rectangle(-736.5,52.1,2264.6,1445.2), new cjs.Rectangle(-729.4,52.1,2257.5,1443.9), new cjs.Rectangle(-722.2,52.1,2250.3,1442.5), new cjs.Rectangle(-715,52.1,2243.1,1441.2), new cjs.Rectangle(-707.8,52.1,2236,1439.9), new cjs.Rectangle(-700.6,52.1,2228.8,1438.5), new cjs.Rectangle(-693.4,52.1,2221.6,1437.2), new cjs.Rectangle(-686.2,52.1,2214.4,1435.9), new cjs.Rectangle(-679.1,52.1,2207.2,1434.6), new cjs.Rectangle(-671.9,52.1,2200.1,1433.2), new cjs.Rectangle(-664.7,52.1,2192.9,1431.9), new cjs.Rectangle(-657.5,52.1,2185.6,1430.6), new cjs.Rectangle(-650.4,52.1,2178.5,1429.2), new cjs.Rectangle(-643.2,52.1,2171.3,1427.9), new cjs.Rectangle(-636,52.1,2164.1,1426.6), new cjs.Rectangle(-628.8,52.1,2157,1425.2), new cjs.Rectangle(-621.6,52.1,2149.8,1423.9), new cjs.Rectangle(-614.4,52.1,2142.6,1422.6), new cjs.Rectangle(-607.3,52.1,2135.4,1421.3), new cjs.Rectangle(-600.1,52.1,2128.2,1419.9), new cjs.Rectangle(-592.9,52.1,2121,1418.6), new cjs.Rectangle(-585.7,52.1,2113.9,1417.3), new cjs.Rectangle(-578.5,52.1,2106.6,1415.9), new cjs.Rectangle(-571.3,52.1,2099.5,1414.6), new cjs.Rectangle(-564.2,52.1,2092.3,1413.3), new cjs.Rectangle(-557,52.1,2085.1,1411.9), new cjs.Rectangle(-549.8,52.1,2078,1410.6), new cjs.Rectangle(-542.6,52.1,2070.8,1409.3), new cjs.Rectangle(-535.4,52.1,2063.6,1407.9), new cjs.Rectangle(-528.3,52.1,2056.4,1406.6), new cjs.Rectangle(-521.1,52.1,2049.2,1405.3), new cjs.Rectangle(-513.9,52.1,2042,1404), new cjs.Rectangle(-506.7,52.1,2034.9,1402.6), new cjs.Rectangle(-499.5,52.1,2027.7,1401.3), new cjs.Rectangle(-492.3,52.1,2020.5,1400), new cjs.Rectangle(-485.2,52.1,2013.3,1398.6), new cjs.Rectangle(-478,52.1,2006.1,1397.3), new cjs.Rectangle(-470.8,52.1,1998.9,1396), new cjs.Rectangle(-463.6,52.1,1991.8,1394.6), new cjs.Rectangle(-456.4,52.1,1984.6,1393.3), new cjs.Rectangle(-449.3,52.1,1977.4,1392), new cjs.Rectangle(-442.1,52.1,1970.2,1390.7), new cjs.Rectangle(-434.9,52.1,1963.1,1389.3), new cjs.Rectangle(-427.7,52.1,1955.9,1388), new cjs.Rectangle(-420.5,52.1,1948.7,1386.7), new cjs.Rectangle(-413.4,52.1,1941.5,1385.3), new cjs.Rectangle(-406.2,52.1,1934.3,1384), new cjs.Rectangle(-399,52.1,1927.1,1382.7), new cjs.Rectangle(-391.8,52.1,1920,1381.3), new cjs.Rectangle(-384.6,52.1,1912.8,1380), new cjs.Rectangle(-377.4,52.1,1905.6,1378.7), new cjs.Rectangle(-370.3,52.1,1898.4,1377.4), new cjs.Rectangle(-363.1,52.1,1891.2,1376), new cjs.Rectangle(-355.9,52.1,1884,1374.7), new cjs.Rectangle(-348.7,52.1,1876.9,1373.4), new cjs.Rectangle(-341.5,52.1,1869.7,1372), new cjs.Rectangle(-334.3,52.1,1862.5,1370.7), new cjs.Rectangle(-327.2,52.1,1855.3,1369.4), new cjs.Rectangle(-320,52.1,1848.1,1368), new cjs.Rectangle(-312.8,52.1,1841,1366.7), new cjs.Rectangle(-305.6,52.1,1833.8,1365.4), new cjs.Rectangle(-298.4,52.1,1826.6,1364.1), new cjs.Rectangle(-291.3,52.1,1819.4,1362.7), new cjs.Rectangle(-284.1,52.1,1812.2,1361.4), new cjs.Rectangle(-276.9,52.1,1805,1360.1), new cjs.Rectangle(-269.7,52.1,1797.9,1358.7), new cjs.Rectangle(-262.5,52.1,1790.7,1357.4), new cjs.Rectangle(-255.4,52.1,1783.5,1356.1), new cjs.Rectangle(-248.2,52.1,1776.3,1354.7), new cjs.Rectangle(-241,52.1,1769.1,1353.4), new cjs.Rectangle(-233.8,52.1,1762,1352.1), new cjs.Rectangle(-226.6,52.1,1754.8,1350.8), new cjs.Rectangle(-219.4,52.1,1747.6,1349.4), new cjs.Rectangle(-212.3,52.1,1740.4,1348.1), new cjs.Rectangle(-205.1,52.1,1733.2,1346.8), new cjs.Rectangle(-197.9,52.1,1726,1345.4), new cjs.Rectangle(-190.7,52.1,1718.9,1344.1), new cjs.Rectangle(-183.5,52.1,1711.7,1342.8), new cjs.Rectangle(-176.3,52.1,1704.5,1341.4), new cjs.Rectangle(-169.2,52.1,1697.3,1340.1), new cjs.Rectangle(-162,52.1,1690.1,1338.8), new cjs.Rectangle(-154.8,52.1,1682.9,1337.5), new cjs.Rectangle(-147.6,52.1,1675.8,1336.1), new cjs.Rectangle(-140.4,52.1,1668.6,1334.8), new cjs.Rectangle(-133.3,52.1,1661.4,1333.5), new cjs.Rectangle(-126.1,52.1,1654.3,1332.1), new cjs.Rectangle(-118.9,52.1,1647.1,1330.8), new cjs.Rectangle(-111.8,52.1,1639.9,1329.5), new cjs.Rectangle(-104.6,52.1,1632.7,1328.1), new cjs.Rectangle(-97.4,52.1,1625.5,1326.8), new cjs.Rectangle(-90.2,52.1,1618.4,1325.5), new cjs.Rectangle(-83,52.1,1611.1,1324.1), new cjs.Rectangle(-75.8,52.1,1603.9,1322.8), new cjs.Rectangle(-68.7,52.1,1596.8,1321.5), new cjs.Rectangle(-61.5,52.1,1589.6,1320.2), new cjs.Rectangle(-54.3,52.1,1582.4,1318.8), new cjs.Rectangle(-47.1,52.1,1575.3,1317.5), new cjs.Rectangle(-39.9,52.1,1568.1,1316.2), new cjs.Rectangle(-32.8,52.1,1560.9,1314.8), new cjs.Rectangle(-25.6,52.1,1553.7,1313.5), new cjs.Rectangle(-18.4,52.1,1546.5,1312.2), new cjs.Rectangle(-11.2,52.1,1539.4,1310.8), new cjs.Rectangle(-4,52.1,1532.1,1309.5), new cjs.Rectangle(3.1,52.1,1525,1308.2), new cjs.Rectangle(10.3,52.1,1517.8,1306.9), new cjs.Rectangle(17.5,52.1,1510.6,1305.5), new cjs.Rectangle(24.7,52.1,1503.4,1304.2), new cjs.Rectangle(31.9,52.1,1496.3,1302.9), new cjs.Rectangle(39.1,52.1,1489.1,1301.5), new cjs.Rectangle(46.2,52.1,1481.9,1300.2), rect=new cjs.Rectangle(53.4,52.1,1474.7,1298.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(82.6,52.1,1445.6,1298.9), new cjs.Rectangle(102.3,52.1,1425.9,1301.6), new cjs.Rectangle(122,52.1,1406.1,1304.3), new cjs.Rectangle(141.7,52.1,1386.4,1307), new cjs.Rectangle(161.4,52.1,1366.7,1309.6), new cjs.Rectangle(181.1,52.1,1347,1312.3), new cjs.Rectangle(200.9,52.1,1327.3,1315), new cjs.Rectangle(220.6,52.1,1307.6,1317.7), new cjs.Rectangle(240.3,52.1,1287.8,1320.3), new cjs.Rectangle(260,52.1,1268.1,1323), new cjs.Rectangle(279.7,52.1,1248.4,1325.7), new cjs.Rectangle(299.4,52.1,1228.7,1328.4), new cjs.Rectangle(319.2,52.1,1208.9,1331.1), new cjs.Rectangle(338.9,52.1,1189.3,1333.7), new cjs.Rectangle(358.6,52.1,1169.6,1336.4), new cjs.Rectangle(378.3,52.1,1149.8,1339.1), new cjs.Rectangle(398,52.1,1130.1,1341.8), new cjs.Rectangle(417.7,52.1,1110.4,1344.4), new cjs.Rectangle(437.5,52.1,1090.6,1347.1), new cjs.Rectangle(457.2,52.1,1070.9,1349.8), new cjs.Rectangle(476.9,52.1,1051.3,1352.5), new cjs.Rectangle(496.6,52.1,1031.5,1355.2), new cjs.Rectangle(516.3,52.1,1011.8,1357.8), new cjs.Rectangle(536,52.1,992.1,1360.5), new cjs.Rectangle(555.8,52.1,972.4,1363.2), new cjs.Rectangle(575.5,52.1,952.6,1365.9), new cjs.Rectangle(595.2,52.1,933,1368.5), new cjs.Rectangle(614.9,52.1,913.2,1371.2), new cjs.Rectangle(634.6,52.1,893.5,1373.9), new cjs.Rectangle(654.3,52.1,873.8,1376.6), new cjs.Rectangle(674.1,52.1,860,1379.2), new cjs.Rectangle(693.8,52.1,860,1381.9), new cjs.Rectangle(713.5,52.1,860,1384.6), new cjs.Rectangle(733.2,52.1,860,1387.3), new cjs.Rectangle(752.9,52.1,860,1390), new cjs.Rectangle(772.6,52.1,859.9,1392.6), new cjs.Rectangle(792.3,52.1,859.9,1395.3), new cjs.Rectangle(812.1,52.1,859.8,1398), new cjs.Rectangle(831.8,52.1,859.8,1400.7), new cjs.Rectangle(851.5,52.1,859.8,1403.3), new cjs.Rectangle(871.2,52.1,859.8,1406), new cjs.Rectangle(890.9,52.1,859.8,1408.7), new cjs.Rectangle(910.6,52.1,859.7,1411.4), new cjs.Rectangle(930.3,52.1,859.7,1414.1), new cjs.Rectangle(950.1,52.1,859.7,1416.7), new cjs.Rectangle(969.8,52.1,859.7,1419.4), new cjs.Rectangle(989.5,52.1,859.6,1422.1), new cjs.Rectangle(1009.2,52.1,859.6,1424.8), new cjs.Rectangle(1028.9,52.1,859.6,1427.4), new cjs.Rectangle(1048.7,52.1,859.5,1430.1), new cjs.Rectangle(1068.4,52.1,859.5,1432.8), new cjs.Rectangle(1088.1,52.1,859.5,1435.5), new cjs.Rectangle(1107.8,52.1,859.5,1438.2), new cjs.Rectangle(1127.5,52.1,859.4,1440.8), new cjs.Rectangle(1145.3,52.1,861.4,1443.5), new cjs.Rectangle(1145.3,52.1,881,1446.2), new cjs.Rectangle(1145.3,52.1,900.7,1448.9), new cjs.Rectangle(1145.3,52.1,920.4,1451.5), new cjs.Rectangle(1145.3,52.1,940.1,1454.2), new cjs.Rectangle(1145.3,52.1,959.8,1456.9), new cjs.Rectangle(1145.3,52.1,979.4,1459.6), new cjs.Rectangle(1145.3,52.1,999.2,1462.2), new cjs.Rectangle(1145.3,52.1,1018.9,1464.9), new cjs.Rectangle(1145.3,52.1,1038.5,1467.6), new cjs.Rectangle(1145.3,52.1,1058.2,1470.3), new cjs.Rectangle(1145.3,52.1,1077.9,1473), new cjs.Rectangle(1145.3,52.1,1097.6,1475.6), new cjs.Rectangle(1145.3,52.1,1117.3,1478.3), new cjs.Rectangle(1145.3,52.1,1136.9,1481), new cjs.Rectangle(1145.3,52.1,1156.7,1483.7), new cjs.Rectangle(1145.3,52.1,1176.4,1486.3), new cjs.Rectangle(1145.3,52.1,1196.1,1489), new cjs.Rectangle(1145.3,52.1,1215.7,1491.7), new cjs.Rectangle(1145.3,52.1,1235.4,1494.4), new cjs.Rectangle(1145.3,52.1,1255.1,1497.1), new cjs.Rectangle(1145.3,52.1,1274.8,1499.7), new cjs.Rectangle(1145.3,52.1,1294.5,1502.4), new cjs.Rectangle(1145.3,52.1,1314.2,1505.1), new cjs.Rectangle(1145.3,52.1,1333.9,1507.8), new cjs.Rectangle(1145.3,52.1,1353.6,1510.4), new cjs.Rectangle(1145.3,52.1,1373.3,1513.1), new cjs.Rectangle(1145.3,52.1,1392.9,1515.8), new cjs.Rectangle(1145.3,52.1,1412.7,1518.5), rect=new cjs.Rectangle(1145.3,52.1,1412.7,1478.7), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(1145.3,52.1,1181.3,1478.7), new cjs.Rectangle(1145.3,52.1,1169.9,1470.3), new cjs.Rectangle(1145.3,52.1,1158.6,1461.9), new cjs.Rectangle(1145.3,52.1,1147.2,1453.5), new cjs.Rectangle(1145.3,52.1,1135.8,1445), new cjs.Rectangle(1145.3,52.1,1124.4,1436.6), new cjs.Rectangle(1145.3,52.1,1113.1,1428.2), new cjs.Rectangle(1145.3,52.1,1101.7,1419.8), new cjs.Rectangle(1145.3,52.1,1090.4,1411.4), new cjs.Rectangle(1145.3,52.1,1079,1385.9), new cjs.Rectangle(1145.3,52.1,1067.6,1394.6), new cjs.Rectangle(1145.3,52.1,1056.3,1386.2), new cjs.Rectangle(1145.3,52.1,1044.9,1377.8), new cjs.Rectangle(1145.3,52.1,1033.5,1369.4), new cjs.Rectangle(1145.3,52.1,1022.2,1361), new cjs.Rectangle(1145.3,52.1,1010.8,1352.6), new cjs.Rectangle(1145.3,52.1,999.4,1344.2), new cjs.Rectangle(1145.3,52.1,988.1,1335.8), new cjs.Rectangle(1145.3,52.1,976.7,1327.4), new cjs.Rectangle(1145.3,52.1,965.3,1301.8), new cjs.Rectangle(1145.3,52.1,953.9,1310.5), new cjs.Rectangle(1145.3,52.1,942.6,1302.1), new cjs.Rectangle(1145.3,52.1,929.7,1293.7), new cjs.Rectangle(1145.3,52.1,916.9,1285.3), new cjs.Rectangle(1145.3,52.1,904,1276.9), new cjs.Rectangle(1145.3,52.1,891.2,1268.5), new cjs.Rectangle(1145.3,52.1,878.3,1260.1), new cjs.Rectangle(1145.3,52.1,865.4,1251.7), new cjs.Rectangle(1145.3,52.1,852.6,1243.3), new cjs.Rectangle(1145.3,52.1,839.7,1217.7), new cjs.Rectangle(1145.3,52.1,826.9,1226.5), rect=new cjs.Rectangle(1139.8,52.1,819.5,1218.1), rect, rect, rect, new cjs.Rectangle(1120.3,52.1,839,1218.1), new cjs.Rectangle(1079.1,52.1,880.2,1218.1), new cjs.Rectangle(1037.9,52.1,921.4,1218.1), new cjs.Rectangle(996.8,52.1,962.5,1218.1), new cjs.Rectangle(955.4,52.1,1003.9,1218.1), new cjs.Rectangle(913.9,52.1,1045.4,1218.1), new cjs.Rectangle(872.4,52.1,1086.9,1218.1), new cjs.Rectangle(830.8,52.1,1128.5,1218.1), new cjs.Rectangle(789.1,52.1,1170.2,1218.1), new cjs.Rectangle(747.2,52.1,1212.1,1218.1), new cjs.Rectangle(705.4,52.1,1253.9,1219.5), new cjs.Rectangle(663.3,63.2,1296,1241.6), new cjs.Rectangle(628.3,63.2,1331,1280.3), rect=new cjs.Rectangle(1046.9,63.2,912.4,1206.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(952.6,89.4,1382.1,1195.7), rect, rect, new cjs.Rectangle(938.6,90.4,1332,1150.6), new cjs.Rectangle(924.9,91.7,1281.2,1105.1), new cjs.Rectangle(911.3,93.4,1229.8,1059.1), new cjs.Rectangle(898,95.3,1177.7,1012.8), new cjs.Rectangle(884.9,97.6,1125.1,966.1), new cjs.Rectangle(872,100.2,1071.8,919.1), new cjs.Rectangle(859.3,103.2,1018.1,871.7), new cjs.Rectangle(846.7,106.4,963.7,823.9), new cjs.Rectangle(834.3,109.9,908.9,775.8), new cjs.Rectangle(822.1,113.7,853.4,727.6), new cjs.Rectangle(810,117.7,797.6,678.9), new cjs.Rectangle(798.1,122,741.2,630.1), new cjs.Rectangle(786.4,126.5,684.4,581), new cjs.Rectangle(774.6,131.3,627.3,531.7), new cjs.Rectangle(763.1,136.3,569.7,482.2), new cjs.Rectangle(751.7,141.4,511.6,432.6), new cjs.Rectangle(740.4,146.9,453.3,382.7), new cjs.Rectangle(446.7,-0.5,677.1,485.7), new cjs.Rectangle(483.3,31.7,570.2,409.2), new cjs.Rectangle(519.8,64.2,463.4,332.5), new cjs.Rectangle(556.4,96.7,356.3,255.7), new cjs.Rectangle(592.9,129.3,248.9,179.3), new cjs.Rectangle(629.4,161.9,141.5,103), rect=new cjs.Rectangle(663.1,189.7,36.6,30.9), rect];
+p.frameBounds = [rect, new cjs.Rectangle(-772.4,52.1,2300.6,1451.8), new cjs.Rectangle(-765.3,52.1,2293.4,1450.5), new cjs.Rectangle(-758.1,52.1,2286.2,1449.2), new cjs.Rectangle(-750.9,52.1,2279,1447.9), new cjs.Rectangle(-743.7,52.1,2271.9,1446.5), new cjs.Rectangle(-736.5,52.1,2264.6,1445.2), new cjs.Rectangle(-729.4,52.1,2257.5,1443.9), new cjs.Rectangle(-722.2,52.1,2250.3,1442.5), new cjs.Rectangle(-715,52.1,2243.1,1441.2), new cjs.Rectangle(-707.8,52.1,2236,1439.9), new cjs.Rectangle(-700.6,52.1,2228.8,1438.5), new cjs.Rectangle(-693.4,52.1,2221.6,1437.2), new cjs.Rectangle(-686.2,52.1,2214.4,1435.9), new cjs.Rectangle(-679.1,52.1,2207.2,1434.6), new cjs.Rectangle(-671.9,52.1,2200.1,1433.2), new cjs.Rectangle(-664.7,52.1,2192.9,1431.9), new cjs.Rectangle(-657.5,52.1,2185.6,1430.6), new cjs.Rectangle(-650.4,52.1,2178.5,1429.2), new cjs.Rectangle(-643.2,52.1,2171.3,1427.9), new cjs.Rectangle(-636,52.1,2164.1,1426.6), new cjs.Rectangle(-628.8,52.1,2157,1425.2), new cjs.Rectangle(-621.6,52.1,2149.8,1423.9), new cjs.Rectangle(-614.4,52.1,2142.6,1422.6), new cjs.Rectangle(-607.3,52.1,2135.4,1421.3), new cjs.Rectangle(-600.1,52.1,2128.2,1419.9), new cjs.Rectangle(-592.9,52.1,2121,1418.6), new cjs.Rectangle(-585.7,52.1,2113.9,1417.3), new cjs.Rectangle(-578.5,52.1,2106.6,1415.9), new cjs.Rectangle(-571.3,52.1,2099.5,1414.6), new cjs.Rectangle(-564.2,52.1,2092.3,1413.3), new cjs.Rectangle(-557,52.1,2085.1,1411.9), new cjs.Rectangle(-549.8,52.1,2078,1410.6), new cjs.Rectangle(-542.6,52.1,2070.8,1409.3), new cjs.Rectangle(-535.4,52.1,2063.6,1407.9), new cjs.Rectangle(-528.3,52.1,2056.4,1406.6), new cjs.Rectangle(-521.1,52.1,2049.2,1405.3), new cjs.Rectangle(-513.9,52.1,2042,1404), new cjs.Rectangle(-506.7,52.1,2034.9,1402.6), new cjs.Rectangle(-499.5,52.1,2027.7,1401.3), new cjs.Rectangle(-492.3,52.1,2020.5,1400), new cjs.Rectangle(-485.2,52.1,2013.3,1398.6), new cjs.Rectangle(-478,52.1,2006.1,1397.3), new cjs.Rectangle(-470.8,52.1,1998.9,1396), new cjs.Rectangle(-463.6,52.1,1991.8,1394.6), new cjs.Rectangle(-456.4,52.1,1984.6,1393.3), new cjs.Rectangle(-449.3,52.1,1977.4,1392), new cjs.Rectangle(-442.1,52.1,1970.2,1390.7), new cjs.Rectangle(-434.9,52.1,1963.1,1389.3), new cjs.Rectangle(-427.7,52.1,1955.9,1388), new cjs.Rectangle(-420.5,52.1,1948.7,1386.7), new cjs.Rectangle(-413.4,52.1,1941.5,1385.3), new cjs.Rectangle(-406.2,52.1,1934.3,1384), new cjs.Rectangle(-399,52.1,1927.1,1382.7), new cjs.Rectangle(-391.8,52.1,1920,1381.3), new cjs.Rectangle(-384.6,52.1,1912.8,1380), new cjs.Rectangle(-377.4,52.1,1905.6,1378.7), new cjs.Rectangle(-370.3,52.1,1898.4,1377.4), new cjs.Rectangle(-363.1,52.1,1891.2,1376), new cjs.Rectangle(-355.9,52.1,1884,1374.7), new cjs.Rectangle(-348.7,52.1,1876.9,1373.4), new cjs.Rectangle(-341.5,52.1,1869.7,1372), new cjs.Rectangle(-334.3,52.1,1862.5,1370.7), new cjs.Rectangle(-327.2,52.1,1855.3,1369.4), new cjs.Rectangle(-320,52.1,1848.1,1368), new cjs.Rectangle(-312.8,52.1,1841,1366.7), new cjs.Rectangle(-305.6,52.1,1833.8,1365.4), new cjs.Rectangle(-298.4,52.1,1826.6,1364.1), new cjs.Rectangle(-291.3,52.1,1819.4,1362.7), new cjs.Rectangle(-284.1,52.1,1812.2,1361.4), new cjs.Rectangle(-276.9,52.1,1805,1360.1), new cjs.Rectangle(-269.7,52.1,1797.9,1358.7), new cjs.Rectangle(-262.5,52.1,1790.7,1357.4), new cjs.Rectangle(-255.4,52.1,1783.5,1356.1), new cjs.Rectangle(-248.2,52.1,1776.3,1354.7), new cjs.Rectangle(-241,52.1,1769.1,1353.4), new cjs.Rectangle(-233.8,52.1,1762,1352.1), new cjs.Rectangle(-226.6,52.1,1754.8,1350.8), new cjs.Rectangle(-219.4,52.1,1747.6,1349.4), new cjs.Rectangle(-212.3,52.1,1740.4,1348.1), new cjs.Rectangle(-205.1,52.1,1733.2,1346.8), new cjs.Rectangle(-197.9,52.1,1726,1345.4), new cjs.Rectangle(-190.7,52.1,1718.9,1344.1), new cjs.Rectangle(-183.5,52.1,1711.7,1342.8), new cjs.Rectangle(-176.3,52.1,1704.5,1341.4), new cjs.Rectangle(-169.2,52.1,1697.3,1340.1), new cjs.Rectangle(-162,52.1,1690.1,1338.8), new cjs.Rectangle(-154.8,52.1,1682.9,1337.5), new cjs.Rectangle(-147.6,52.1,1675.8,1336.1), new cjs.Rectangle(-140.4,52.1,1668.6,1334.8), new cjs.Rectangle(-133.3,52.1,1661.4,1333.5), new cjs.Rectangle(-126.1,52.1,1654.3,1332.1), new cjs.Rectangle(-118.9,52.1,1647.1,1330.8), new cjs.Rectangle(-111.8,52.1,1639.9,1329.5), new cjs.Rectangle(-104.6,52.1,1632.7,1328.1), new cjs.Rectangle(-97.4,52.1,1625.5,1326.8), new cjs.Rectangle(-90.2,52.1,1618.4,1325.5), new cjs.Rectangle(-83,52.1,1611.1,1324.1), new cjs.Rectangle(-75.8,52.1,1603.9,1322.8), new cjs.Rectangle(-68.7,52.1,1596.8,1321.5), new cjs.Rectangle(-61.5,52.1,1589.6,1320.2), new cjs.Rectangle(-54.3,52.1,1582.4,1318.8), new cjs.Rectangle(-47.1,52.1,1575.3,1317.5), new cjs.Rectangle(-39.9,52.1,1568.1,1316.2), new cjs.Rectangle(-32.8,52.1,1560.9,1314.8), new cjs.Rectangle(-25.6,52.1,1553.7,1313.5), new cjs.Rectangle(-18.4,52.1,1546.5,1312.2), new cjs.Rectangle(-11.2,52.1,1539.4,1310.8), new cjs.Rectangle(-4,52.1,1532.1,1309.5), new cjs.Rectangle(3.1,52.1,1525,1308.2), new cjs.Rectangle(10.3,52.1,1517.8,1306.9), new cjs.Rectangle(17.5,52.1,1510.6,1305.5), new cjs.Rectangle(24.7,52.1,1503.4,1304.2), new cjs.Rectangle(31.9,52.1,1496.3,1302.9), new cjs.Rectangle(39.1,52.1,1489.1,1301.5), new cjs.Rectangle(46.2,52.1,1481.9,1300.2), rect=new cjs.Rectangle(53.4,52.1,1474.7,1298.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(82.6,52.1,1445.6,1298.9), new cjs.Rectangle(102.3,52.1,1425.9,1301.6), new cjs.Rectangle(122,52.1,1406.1,1304.3), new cjs.Rectangle(141.7,52.1,1386.4,1307), new cjs.Rectangle(161.4,52.1,1366.7,1309.6), new cjs.Rectangle(181.1,52.1,1347,1312.3), new cjs.Rectangle(200.9,52.1,1327.3,1315), new cjs.Rectangle(220.6,52.1,1307.6,1317.7), new cjs.Rectangle(240.3,52.1,1287.8,1320.3), new cjs.Rectangle(260,52.1,1268.1,1323), new cjs.Rectangle(279.7,52.1,1248.4,1325.7), new cjs.Rectangle(299.4,52.1,1228.7,1328.4), new cjs.Rectangle(319.2,52.1,1208.9,1331.1), new cjs.Rectangle(338.9,52.1,1189.3,1333.7), new cjs.Rectangle(358.6,52.1,1169.6,1336.4), new cjs.Rectangle(378.3,52.1,1149.8,1339.1), new cjs.Rectangle(398,52.1,1130.1,1341.8), new cjs.Rectangle(417.7,52.1,1110.4,1344.4), new cjs.Rectangle(437.5,52.1,1090.6,1347.1), new cjs.Rectangle(457.2,52.1,1070.9,1349.8), new cjs.Rectangle(476.9,52.1,1051.3,1352.5), new cjs.Rectangle(496.6,52.1,1031.5,1355.2), new cjs.Rectangle(516.3,52.1,1011.8,1357.8), new cjs.Rectangle(536,52.1,992.1,1360.5), new cjs.Rectangle(555.8,52.1,972.4,1363.2), new cjs.Rectangle(575.5,52.1,952.6,1365.9), new cjs.Rectangle(595.2,52.1,933,1368.5), new cjs.Rectangle(614.9,52.1,913.2,1371.2), new cjs.Rectangle(634.6,52.1,893.5,1373.9), new cjs.Rectangle(654.3,52.1,873.8,1376.6), new cjs.Rectangle(674.1,52.1,860,1379.2), new cjs.Rectangle(693.8,52.1,860,1381.9), new cjs.Rectangle(713.5,52.1,860,1384.6), new cjs.Rectangle(733.2,52.1,860,1387.3), new cjs.Rectangle(752.9,52.1,860,1390), new cjs.Rectangle(772.6,52.1,859.9,1392.6), new cjs.Rectangle(792.3,52.1,859.9,1395.3), new cjs.Rectangle(812.1,52.1,859.8,1398), new cjs.Rectangle(831.8,52.1,859.8,1400.7), new cjs.Rectangle(851.5,52.1,859.8,1403.3), new cjs.Rectangle(871.2,52.1,859.8,1406), new cjs.Rectangle(890.9,52.1,859.8,1408.7), new cjs.Rectangle(910.6,52.1,859.7,1411.4), new cjs.Rectangle(930.3,52.1,859.7,1414.1), new cjs.Rectangle(950.1,52.1,859.7,1416.7), new cjs.Rectangle(969.8,52.1,859.7,1419.4), new cjs.Rectangle(989.5,52.1,859.6,1422.1), new cjs.Rectangle(1009.2,52.1,859.6,1424.8), new cjs.Rectangle(1028.9,52.1,859.6,1427.4), new cjs.Rectangle(1048.7,52.1,859.5,1430.1), new cjs.Rectangle(1068.4,52.1,859.5,1432.8), new cjs.Rectangle(1088.1,52.1,859.5,1435.5), new cjs.Rectangle(1107.8,52.1,859.5,1438.2), new cjs.Rectangle(1127.5,52.1,859.4,1440.8), new cjs.Rectangle(1145.3,52.1,861.4,1443.5), new cjs.Rectangle(1145.3,52.1,881,1446.2), new cjs.Rectangle(1145.3,52.1,900.7,1448.9), new cjs.Rectangle(1145.3,52.1,920.4,1451.5), new cjs.Rectangle(1145.3,52.1,940.1,1454.2), new cjs.Rectangle(1145.3,52.1,959.8,1456.9), new cjs.Rectangle(1145.3,52.1,979.4,1459.6), new cjs.Rectangle(1145.3,52.1,999.2,1462.2), new cjs.Rectangle(1145.3,52.1,1018.9,1464.9), new cjs.Rectangle(1145.3,52.1,1038.5,1467.6), new cjs.Rectangle(1145.3,52.1,1058.2,1470.3), new cjs.Rectangle(1145.3,52.1,1077.9,1473), new cjs.Rectangle(1145.3,52.1,1097.6,1475.6), new cjs.Rectangle(1145.3,52.1,1117.3,1478.3), new cjs.Rectangle(1145.3,52.1,1136.9,1481), new cjs.Rectangle(1145.3,52.1,1156.7,1483.7), new cjs.Rectangle(1145.3,52.1,1176.4,1486.3), new cjs.Rectangle(1145.3,52.1,1196.1,1489), new cjs.Rectangle(1145.3,52.1,1215.7,1491.7), new cjs.Rectangle(1145.3,52.1,1235.4,1494.4), new cjs.Rectangle(1145.3,52.1,1255.1,1497.1), new cjs.Rectangle(1145.3,52.1,1274.8,1499.7), new cjs.Rectangle(1145.3,52.1,1294.5,1502.4), new cjs.Rectangle(1145.3,52.1,1314.2,1505.1), new cjs.Rectangle(1145.3,52.1,1333.9,1507.8), new cjs.Rectangle(1145.3,52.1,1353.6,1510.4), new cjs.Rectangle(1145.3,52.1,1373.3,1513.1), new cjs.Rectangle(1145.3,52.1,1392.9,1515.8), new cjs.Rectangle(1145.3,52.1,1412.7,1518.5), rect=new cjs.Rectangle(1145.3,52.1,1412.7,1478.7), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, rect, new cjs.Rectangle(1145.3,52.1,1181.3,1478.7), new cjs.Rectangle(1145.3,52.1,1169.9,1470.3), new cjs.Rectangle(1145.3,52.1,1158.6,1461.9), new cjs.Rectangle(1145.3,52.1,1147.2,1453.5), new cjs.Rectangle(1145.3,52.1,1135.8,1445), new cjs.Rectangle(1145.3,52.1,1124.4,1436.6), new cjs.Rectangle(1145.3,52.1,1113.1,1428.2), new cjs.Rectangle(1145.3,52.1,1101.7,1419.8), new cjs.Rectangle(1145.3,52.1,1090.4,1411.4), new cjs.Rectangle(1145.3,52.1,1079,1385.9), new cjs.Rectangle(1145.3,52.1,1067.6,1394.6), new cjs.Rectangle(1145.3,52.1,1056.3,1386.2), new cjs.Rectangle(1145.3,52.1,1044.9,1377.8), new cjs.Rectangle(1145.3,52.1,1033.5,1369.4), new cjs.Rectangle(1145.3,52.1,1022.2,1361), new cjs.Rectangle(1145.3,52.1,1010.8,1352.6), new cjs.Rectangle(1145.3,52.1,999.4,1344.2), new cjs.Rectangle(1145.3,52.1,988.1,1335.8), new cjs.Rectangle(1145.3,52.1,976.7,1327.4), new cjs.Rectangle(1145.3,52.1,965.3,1301.8), new cjs.Rectangle(1145.3,52.1,953.9,1310.5), new cjs.Rectangle(1145.3,52.1,942.6,1302.1), new cjs.Rectangle(1145.3,52.1,929.7,1293.7), new cjs.Rectangle(1145.3,52.1,916.9,1285.3), new cjs.Rectangle(1145.3,52.1,904,1276.9), new cjs.Rectangle(1145.3,52.1,891.2,1268.5), new cjs.Rectangle(1145.3,52.1,878.3,1260.1), new cjs.Rectangle(1145.3,52.1,865.4,1251.7), new cjs.Rectangle(1145.3,52.1,852.6,1243.3), new cjs.Rectangle(1145.3,52.1,839.7,1217.7), new cjs.Rectangle(1145.3,52.1,826.9,1226.5), rect=new cjs.Rectangle(1139.8,52.1,819.5,1218.1), rect, rect, rect, new cjs.Rectangle(1120.3,52.1,839,1218.1), new cjs.Rectangle(1079.1,52.1,880.2,1218.1), new cjs.Rectangle(1037.9,52.1,921.4,1218.1), new cjs.Rectangle(996.8,52.1,962.5,1218.1), new cjs.Rectangle(955.4,52.1,1003.9,1218.1), new cjs.Rectangle(913.9,52.1,1045.4,1218.1), new cjs.Rectangle(872.4,52.1,1086.9,1218.1), new cjs.Rectangle(830.8,52.1,1128.5,1218.1), new cjs.Rectangle(789.1,52.1,1170.2,1218.1), new cjs.Rectangle(747.2,52.1,1212.1,1218.1), new cjs.Rectangle(705.4,52.1,1253.9,1219.5), new cjs.Rectangle(663.3,63.2,1296,1241.6), new cjs.Rectangle(628.3,63.2,1331,1280.3), rect=new cjs.Rectangle(1046.9,63.2,912.4,1206.9), rect, rect, rect, rect, rect, rect, rect, rect, rect, rect=new cjs.Rectangle(952.6,89.4,1382.1,1195.6), rect, rect, new cjs.Rectangle(938.6,90.4,1332,1150.5), new cjs.Rectangle(924.9,91.7,1281.2,1105.1), new cjs.Rectangle(911.3,93.4,1229.8,1059.1), new cjs.Rectangle(898,95.3,1177.7,1012.8), new cjs.Rectangle(884.9,97.6,1125.1,966.1), new cjs.Rectangle(872,100.2,1071.8,919), new cjs.Rectangle(859.3,103.2,1018.1,871.6), new cjs.Rectangle(846.7,106.4,963.7,823.9), new cjs.Rectangle(834.3,109.9,908.9,775.8), new cjs.Rectangle(822.1,113.7,853.4,727.5), new cjs.Rectangle(810,117.7,797.6,678.9), new cjs.Rectangle(798.1,122,741.2,630.1), new cjs.Rectangle(786.4,126.5,684.4,581), new cjs.Rectangle(774.6,131.3,627.3,531.7), new cjs.Rectangle(763.1,136.3,569.7,482.2), new cjs.Rectangle(751.7,141.4,511.6,432.6), new cjs.Rectangle(740.4,146.9,453.3,382.7), new cjs.Rectangle(446.7,-0.5,677.1,485.7), new cjs.Rectangle(483.3,31.7,570.2,409.1), new cjs.Rectangle(519.8,64.2,463.4,332.5), new cjs.Rectangle(556.4,96.7,356.3,255.7), new cjs.Rectangle(592.9,129.3,248.9,179.3), new cjs.Rectangle(629.4,161.9,141.5,103), rect=new cjs.Rectangle(663.1,189.7,36.6,30.9), rect];
 
 
 (lib.BegginingAnimation = function(mode,startPosition,loop,reversed) {
@@ -26430,11 +26518,10 @@ if (reversed == null) { reversed = false; }
 		stage.enableMouseOver(24); //הגדרת מעבר עכבר
 		
 		
-		
-		//הטמעת פונט
 		WebFontConfig = {
 			google: {
-				families: ['Varela Round'] 
+				families: ['Varela Round'] //כאן בחרו את הפונט
+		
 			}
 		};
 		
@@ -26444,6 +26531,7 @@ if (reversed == null) { reversed = false; }
 			wf.type = 'text/javascript';
 			wf.async = true;
 			var s = document.getElementsByTagName('script')[0];
+		
 			s.parentNode.insertBefore(wf, s);
 		})();
 		
@@ -26907,13 +26995,13 @@ if (reversed == null) { reversed = false; }
 		var batsArr = new Array(); //מערך גלובלי לשמירת מידע על העטלפים והפתקים לאחר יצירתם
 		var note_names = new Array(); //מערך גלובאלי לשמירת שמות הפתקים לאחר יצירתם
 		
-		 
+		
 		// -------------------------------------------------------------------------
 		
 		
 		function timeFunction() { //פונקצייה שסופרת את הזמן במשחק
 			if (startTime == true) {
-				if (isPaused == false) {//סופרת רק אם לא עצרנו את המשחק
+				if (isPaused == false) { //סופרת רק אם לא עצרנו את המשחק
 					upCounter++;
 				}
 			}
@@ -26980,6 +27068,11 @@ if (reversed == null) { reversed = false; }
 			stage.addChild(subject);
 			subject.x = 1183;
 			subject.y = 32;
+			var howToPlay = new lib.howToPlay(); //נושא המשחק
+			stage.addChild(howToPlay);
+			howToPlay.x=700;
+			howToPlay.y=40;
+			howToPlay.gotoAndPlay(0);
 			subject.subjectName.color = "white";
 			subject.subjectName.font = "15pt Varela round";
 		
@@ -26989,7 +27082,7 @@ if (reversed == null) { reversed = false; }
 				stage.addChild(glutenFree);
 				glutenFree.x = 680;
 				glutenFree.y = 90;
-				moon.quesTxt.textAlign = "right";
+				moon.quesTxt.textalign="right";
 				moon.quesTxt.lineWidth = 450; //הגדרת שבירת שורה
 				moon.quesTxt.text = "אספו את כל דפי המתכונים עליהם מופיע מוצר או מאכל אשר אינו מכיל גלוטן בתצורתו המקורית";
 			}
@@ -27158,7 +27251,7 @@ if (reversed == null) { reversed = false; }
 					createNotes(); //יצירת פתקים
 					itemContentRoll(); //בדיקה כמה נשארו מכל מערך והגרלה מתאימה של פתק
 					// הוספת הפתק החדש למערך הפתקים שבהמשך לולאה עוברת עליו ומייצרת על הבמה
-					batsArr[batsArr.length] = new Array(note.name, myGame[rndTrueFalse][rndOption][0], rndTrueFalse, rndOption); 
+					batsArr[batsArr.length] = new Array(note.name, myGame[rndTrueFalse][rndOption][0], rndTrueFalse, rndOption);
 					note_names[note_names.length] = note.name; //מערך של שמות הפ
 					if (myGame[rndTrueFalse][rndOption][1] == "TXT") { //אם מדובר בתוכן שהוא טקסט
 						//כל ההגדרות שנוגעות לטקסט בתוך הפתק
@@ -27171,10 +27264,10 @@ if (reversed == null) { reversed = false; }
 						myTxt.textAlign = "center";
 						myTxt.name = "txt" + note.name;
 						if (myGame[rndTrueFalse][rndOption][0].length > 20) { //אם יש יותר מ 25 תווים לבצע יישור לימין
-						myTxt.font = "17pt Varela round";
-						myTxt.x = -20;
-						myTxt.y = -40;
-						myTxt.lineWidth = 130; //הגדרת שבירת שורה
+							myTxt.font = "17pt Varela round";
+							myTxt.x = -20;
+							myTxt.y = -40;
+							myTxt.lineWidth = 130; //הגדרת שבירת שורה
 						}
 						note.addChild(myTxt);
 					} else if (myGame[rndTrueFalse][rndOption][1] == "PIC") { //אם מדובר בתוכן שהוא תמונה
@@ -27383,15 +27476,15 @@ if (reversed == null) { reversed = false; }
 				//console.log(myResult)
 				if (answer_type == 0) { //והתשובה שגויה
 					//console.log("didnt touch");
-					if (myResult[answer_type][myResultIndex][2] == 0) {//אם זו פעם ראשונה
+					if (myResult[answer_type][myResultIndex][2] == 0) { //אם זו פעם ראשונה
 						//console.log("התעלמתי מתשובה שגויה");
-						myResult[answer_type][myResultIndex][2] = "1";//שינוי הסטטוס
+						myResult[answer_type][myResultIndex][2] = "1"; //שינוי הסטטוס
 					}
 					myGame[answer_type].splice(indexInGame, 1);
-				} else {//אם לא נגעתי והתשובה נכונה
+				} else { //אם לא נגעתי והתשובה נכונה
 					if (myResult[answer_type][myResultIndex][2] == 0) {
 						//console.log("התעלמתי מתשובה נכונה")
-						myResult[answer_type][myResultIndex][2] = "3";//שינוי הסטטוס
+						myResult[answer_type][myResultIndex][2] = "3"; //שינוי הסטטוס
 					}
 				}
 			}
@@ -27444,8 +27537,8 @@ if (reversed == null) { reversed = false; }
 				stage.getChildByName("myWitch" + 2).y -= 1.5;
 				stage.getChildByName("myBroom" + 2).x += 10;
 				stage.getChildByName("myBroom" + 2).y -= 1.5;
-				if (stage.getChildByName("myWitch" + 2).x == 576){ //אם היא קרובה לטירה להשמיע סאונד להצלחה
-					myRightMusic = createjs.Sound.play("right"); 
+				if (stage.getChildByName("myWitch" + 2).x == 576) { //אם היא קרובה לטירה להשמיע סאונד להצלחה
+					myRightMusic = createjs.Sound.play("right");
 				}
 			} else { //אם היא הגיעה לטירה להפעיל את אנימציית הסיום
 				createjs.Ticker.removeEventListener("tick", endWitchTick); //הסרת הטיקר
@@ -27464,17 +27557,17 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		//משתנים שקשורים למשוב המאבחן-------------------------------------------------------------------------
-		var finishBG;//רקע
-		var scoreTitle;//ציון כותרת
-		var grade;//ציון
+		var finishBG; //רקע
+		var scoreTitle; //ציון כותרת
+		var grade; //ציון
 		var gradeTxt;
-		var totalTime;//זמן
-		var mistakes;//טעויות
+		var totalTime; //זמן
+		var mistakes; //טעויות
 		var mistakesCounter = 0;
-		var resultNote;//פתקי משוב
+		var resultNote; //פתקי משוב
 		var rollDown;
 		var rollUp;
-		var containerF;//מכיל פתקים שגויים
+		var containerF; //מכיל פתקים שגויים
 		var containerT; //מכיל פתקים נכונים
 		
 		
@@ -27506,7 +27599,7 @@ if (reversed == null) { reversed = false; }
 			//ספירת כמות הטעויות לפי הסטטוסים שנשמרו במערך התוצאות
 			for (i = 0; i < myResult.length; i++) {
 				for (r = 0; r < myResult[i].length; r++) {
-					if (myResult[i][r][2] == "3" || myResult[i][r][2] == "4") {//אם הסטטוס 3 או 4 זו שגיאה ולכן היא נספרת
+					if (myResult[i][r][2] == "3" || myResult[i][r][2] == "4") { //אם הסטטוס 3 או 4 זו שגיאה ולכן היא נספרת
 						mistakesCounter++;
 					}
 				}
@@ -27564,13 +27657,13 @@ if (reversed == null) { reversed = false; }
 				finishBG.containerF.addChild(resultNote);
 				resultNote.gotoAndStop(0); //העלאת מלבן לבן חלק
 				resultNote.name = "resultNote" + b;
-				if (b % 3 == 0) {//ירידת שורה כל 3 פתקים
+				if (b % 3 == 0) { //ירידת שורה כל 3 פתקים
 					yCounter++;
 					xCounter = 0;
 				} else {
 					xCounter++;
 				}
-			
+		
 				resultNote.x = 75 + (xCounter * 130); //הגדרת מרווחים בין התשובות
 				resultNote.y = 75 + (yCounter * 152); //הגדרת ירידת שורה
 				if (badResults[b][1] == "TXT") { //אם מדובר בתוכן שהוא טקסט
@@ -27587,7 +27680,7 @@ if (reversed == null) { reversed = false; }
 						answerTxt.y = -45;
 					}
 					resultNote.addChild(answerTxt);
-				
+		
 				} else { //אם מדובר בתוכן שהוא תמונה
 					//יצירת אובייקט תמונה
 					baseGameObjectIndex = findIndexInGameBase(badResults[b][0], 0);
@@ -27652,7 +27745,7 @@ if (reversed == null) { reversed = false; }
 			}
 		
 		}
-		function calculateTotalTime() {//חישוב הזמן שלקח לשחקן
+		function calculateTotalTime() { //חישוב הזמן שלקח לשחקן
 			var endTime = "";
 			if (upCounter < 10) { //אם הזמן הוא פחות מ 10 שניות
 				endTime = "00:0" + upCounter; //הדפסה עם אפסים מתאימים
@@ -27676,7 +27769,7 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		
-		function rollDownClick() {//לחיצה על חץ למטה לצפייה בפתקים נוספים
+		function rollDownClick() { //לחיצה על חץ למטה לצפייה בפתקים נוספים
 			finishBG.containerF.y -= 152;
 			finishBG.containerT.y -= 152;
 			if (finishBG.containerF.y > -120) {
@@ -27698,7 +27791,7 @@ if (reversed == null) { reversed = false; }
 		
 		}
 		
-		function rollUpClick() {//לחיצה על חץ למעלה לצפייה בפתקים נוספים
+		function rollUpClick() { //לחיצה על חץ למעלה לצפייה בפתקים נוספים
 			finishBG.containerF.y += 152;
 			finishBG.containerT.y += 152;
 			if (finishBG.containerF.y < 335) {
@@ -27740,7 +27833,7 @@ if (reversed == null) { reversed = false; }
 		
 		var playAgain = false;
 		
-		function returnGameFunc() {//שחק שוב
+		function returnGameFunc() { //שחק שוב
 			reset();
 			playAgain = true;
 			if (gameCode == 1) {
@@ -27751,7 +27844,7 @@ if (reversed == null) { reversed = false; }
 			pick();
 		}
 		
-		function backToStartFunc() {//חזרה למשחק הראשי
+		function backToStartFunc() { //חזרה למשחק הראשי
 			reset();
 			playAgain = false;
 			//BegginingAnimation.removeEventListener("complete", pick);
@@ -27760,7 +27853,7 @@ if (reversed == null) { reversed = false; }
 			start();
 		}
 		
-		function reset() {//איפוס משתנים לקראת משחק חדש
+		function reset() { //איפוס משתנים לקראת משחק חדש
 			upCounter = 0;
 			grade = 0;
 			batCounter = 0;
@@ -27834,83 +27927,83 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/LinkedFile.png?1644164346702", id:"LinkedFile"},
-		{src:"images/Path_0.png?1644164346702", id:"Path_0"},
-		{src:"images/Path_0_1.png?1644164346702", id:"Path_0_1"},
-		{src:"images/Path_0_2.png?1644164346702", id:"Path_0_2"},
-		{src:"images/Path_1_0.png?1644164346702", id:"Path_1_0"},
-		{src:"images/Path_1_2.png?1644164346702", id:"Path_1_2"},
-		{src:"images/Path_1_2_1.png?1644164346702", id:"Path_1_2_1"},
-		{src:"images/Path_1_4.png?1644164346702", id:"Path_1_4"},
-		{src:"images/Path_2.png?1644164346702", id:"Path_2"},
-		{src:"images/Path_2_0.png?1644164346702", id:"Path_2_0"},
-		{src:"images/Path_2_1.png?1644164346702", id:"Path_2_1"},
-		{src:"images/Path_2_11.png?1644164346702", id:"Path_2_11"},
-		{src:"images/Path_2_2.png?1644164346702", id:"Path_2_2"},
-		{src:"images/Path_2_3.png?1644164346702", id:"Path_2_3"},
-		{src:"images/Path_2_4.png?1644164346702", id:"Path_2_4"},
-		{src:"images/Path_2_5.png?1644164346702", id:"Path_2_5"},
-		{src:"images/Path_2_6.png?1644164346702", id:"Path_2_6"},
-		{src:"images/Path_2_7.png?1644164346702", id:"Path_2_7"},
-		{src:"images/Path_2_8.png?1644164346702", id:"Path_2_8"},
-		{src:"images/Path_2_9.png?1644164346702", id:"Path_2_9"},
-		{src:"images/Path_35.png?1644164346702", id:"Path_35"},
-		{src:"images/Path_3_0.png?1644164346702", id:"Path_3_0"},
-		{src:"images/Path_3_1.png?1644164346702", id:"Path_3_1"},
-		{src:"images/Path_3_2.png?1644164346702", id:"Path_3_2"},
-		{src:"images/Path_4.png?1644164346702", id:"Path_4"},
-		{src:"images/Path_4_0.png?1644164346702", id:"Path_4_0"},
-		{src:"images/Path_4_1.png?1644164346702", id:"Path_4_1"},
-		{src:"images/Path_4_3.png?1644164346702", id:"Path_4_3"},
-		{src:"images/Path_5_1.png?1644164346702", id:"Path_5_1"},
-		{src:"images/Path_6.png?1644164346702", id:"Path_6"},
-		{src:"images/Path_6_1.png?1644164346702", id:"Path_6_1"},
-		{src:"images/Rectangle_0.png?1644164346702", id:"Rectangle_0"},
-		{src:"images/Rectangle_1_0.png?1644164346702", id:"Rectangle_1_0"},
-		{src:"images/Rectangle_2_0.png?1644164346702", id:"Rectangle_2_0"},
-		{src:"images/Rectangle_3_0.png?1644164346702", id:"Rectangle_3_0"},
-		{src:"images/Rectangle_4_0.png?1644164346702", id:"Rectangle_4_0"},
-		{src:"images/Rectangle_5_0.png?1644164346702", id:"Rectangle_5_0"},
-		{src:"images/Rectangle_6_0.png?1644164346702", id:"Rectangle_6_0"},
-		{src:"images/beginningAnimationBG.png?1644164346702", id:"beginningAnimationBG"},
-		{src:"images/ComboBox.png?1644164346702", id:"ComboBox"},
-		{src:"images/CSS.png?1644164346702", id:"CSS"},
-		{src:"images/endAnimationBG.png?1644164346702", id:"endAnimationBG"},
-		{src:"images/endface15.png?1644164346702", id:"endface15"},
-		{src:"images/face15.png?1644164346702", id:"face15"},
-		{src:"images/green.png?1644164346702", id:"green"},
-		{src:"images/red.png?1644164346702", id:"red"},
-		{src:"images/yellow.png?1644164346702", id:"yellow"},
-		{src:"images/milk.png?1644164346702", id:"milk"},
-		{src:"images/snail.png?1644164346702", id:"snail"},
-		{src:"images/snake.png?1644164346702", id:"snake"},
-		{src:"images/groundsel.png?1644164346702", id:"groundsel"},
-		{src:"images/passover.png?1644164346702", id:"passover"},
-		{src:"images/pizza.png?1644164346702", id:"pizza"},
-		{src:"images/corason.png?1644164346702", id:"corason"},
-		{src:"images/snow.png?1644164346702", id:"snow"},
-		{src:"images/apple.png?1644164346702", id:"apple"},
-		{src:"images/watermelon.png?1644164346702", id:"watermelon"},
-		{src:"images/rice.png?1644164346702", id:"rice"},
-		{src:"images/light.png?1644164346702", id:"light"},
-		{src:"images/egg.png?1644164346702", id:"egg"},
-		{src:"images/beer.png?1644164346702", id:"beer"},
-		{src:"images/cheese.png?1644164346702", id:"cheese"},
-		{src:"images/ירח_.png?1644164346702", id:"ירח"},
-		{src:"images/bread.png?1644164346702", id:"bread"},
-		{src:"images/backToStartBTN.png?1644164346702", id:"backToStartBTN"},
-		{src:"images/מסךביצועים_.png?1644164346702", id:"מסךביצועים"},
-		{src:"images/endScreen.png?1644164346702", id:"endScreen"},
-		{src:"images/returnGameBTN.png?1644164346702", id:"returnGameBTN"},
-		{src:"sounds/animationMusic.mp3?1644164346702", id:"animationMusic"},
-		{src:"sounds/right.mp3?1644164346702", id:"right"},
-		{src:"sounds/wrong.mp3?1644164346702", id:"wrong"},
-		{src:"sounds/music.mp3?1644164346702", id:"music"},
-		{src:"sounds/windMusic.mp3?1644164346702", id:"windMusic"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644164346702", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1644164346702", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/css.js?1644164346702", id:"an.CSS"},
-		{src:"components/ui/src/combobox.js?1644164346702", id:"an.ComboBox"}
+		{src:"images/LinkedFile.png?1644171675509", id:"LinkedFile"},
+		{src:"images/Path_0.png?1644171675509", id:"Path_0"},
+		{src:"images/Path_0_1.png?1644171675509", id:"Path_0_1"},
+		{src:"images/Path_0_2.png?1644171675509", id:"Path_0_2"},
+		{src:"images/Path_1_0.png?1644171675509", id:"Path_1_0"},
+		{src:"images/Path_1_2.png?1644171675509", id:"Path_1_2"},
+		{src:"images/Path_1_2_1.png?1644171675509", id:"Path_1_2_1"},
+		{src:"images/Path_1_4.png?1644171675509", id:"Path_1_4"},
+		{src:"images/Path_2.png?1644171675509", id:"Path_2"},
+		{src:"images/Path_2_0.png?1644171675509", id:"Path_2_0"},
+		{src:"images/Path_2_1.png?1644171675509", id:"Path_2_1"},
+		{src:"images/Path_2_11.png?1644171675509", id:"Path_2_11"},
+		{src:"images/Path_2_2.png?1644171675509", id:"Path_2_2"},
+		{src:"images/Path_2_3.png?1644171675509", id:"Path_2_3"},
+		{src:"images/Path_2_4.png?1644171675509", id:"Path_2_4"},
+		{src:"images/Path_2_5.png?1644171675509", id:"Path_2_5"},
+		{src:"images/Path_2_6.png?1644171675509", id:"Path_2_6"},
+		{src:"images/Path_2_7.png?1644171675509", id:"Path_2_7"},
+		{src:"images/Path_2_8.png?1644171675509", id:"Path_2_8"},
+		{src:"images/Path_2_9.png?1644171675509", id:"Path_2_9"},
+		{src:"images/Path_35.png?1644171675509", id:"Path_35"},
+		{src:"images/Path_3_0.png?1644171675509", id:"Path_3_0"},
+		{src:"images/Path_3_1.png?1644171675509", id:"Path_3_1"},
+		{src:"images/Path_3_2.png?1644171675509", id:"Path_3_2"},
+		{src:"images/Path_4.png?1644171675509", id:"Path_4"},
+		{src:"images/Path_4_0.png?1644171675509", id:"Path_4_0"},
+		{src:"images/Path_4_1.png?1644171675509", id:"Path_4_1"},
+		{src:"images/Path_4_3.png?1644171675509", id:"Path_4_3"},
+		{src:"images/Path_5_1.png?1644171675509", id:"Path_5_1"},
+		{src:"images/Path_6.png?1644171675509", id:"Path_6"},
+		{src:"images/Path_6_1.png?1644171675509", id:"Path_6_1"},
+		{src:"images/Rectangle_0.png?1644171675509", id:"Rectangle_0"},
+		{src:"images/Rectangle_1_0.png?1644171675509", id:"Rectangle_1_0"},
+		{src:"images/Rectangle_2_0.png?1644171675509", id:"Rectangle_2_0"},
+		{src:"images/Rectangle_3_0.png?1644171675509", id:"Rectangle_3_0"},
+		{src:"images/Rectangle_4_0.png?1644171675509", id:"Rectangle_4_0"},
+		{src:"images/Rectangle_5_0.png?1644171675509", id:"Rectangle_5_0"},
+		{src:"images/Rectangle_6_0.png?1644171675509", id:"Rectangle_6_0"},
+		{src:"images/beginningAnimationBG.png?1644171675509", id:"beginningAnimationBG"},
+		{src:"images/ComboBox.png?1644171675509", id:"ComboBox"},
+		{src:"images/CSS.png?1644171675509", id:"CSS"},
+		{src:"images/endAnimationBG.png?1644171675509", id:"endAnimationBG"},
+		{src:"images/endface15.png?1644171675509", id:"endface15"},
+		{src:"images/face15.png?1644171675509", id:"face15"},
+		{src:"images/green.png?1644171675509", id:"green"},
+		{src:"images/red.png?1644171675509", id:"red"},
+		{src:"images/yellow.png?1644171675509", id:"yellow"},
+		{src:"images/milk.png?1644171675509", id:"milk"},
+		{src:"images/snail.png?1644171675509", id:"snail"},
+		{src:"images/snake.png?1644171675509", id:"snake"},
+		{src:"images/groundsel.png?1644171675509", id:"groundsel"},
+		{src:"images/passover.png?1644171675509", id:"passover"},
+		{src:"images/pizza.png?1644171675509", id:"pizza"},
+		{src:"images/corason.png?1644171675509", id:"corason"},
+		{src:"images/snow.png?1644171675509", id:"snow"},
+		{src:"images/apple.png?1644171675509", id:"apple"},
+		{src:"images/watermelon.png?1644171675509", id:"watermelon"},
+		{src:"images/rice.png?1644171675509", id:"rice"},
+		{src:"images/light.png?1644171675509", id:"light"},
+		{src:"images/egg.png?1644171675509", id:"egg"},
+		{src:"images/beer.png?1644171675509", id:"beer"},
+		{src:"images/cheese.png?1644171675509", id:"cheese"},
+		{src:"images/ירח_.png?1644171675509", id:"ירח"},
+		{src:"images/bread.png?1644171675509", id:"bread"},
+		{src:"images/backToStartBTN.png?1644171675509", id:"backToStartBTN"},
+		{src:"images/מסךביצועים_.png?1644171675509", id:"מסךביצועים"},
+		{src:"images/endScreen.png?1644171675509", id:"endScreen"},
+		{src:"images/returnGameBTN.png?1644171675509", id:"returnGameBTN"},
+		{src:"sounds/animationMusic.mp3?1644171675509", id:"animationMusic"},
+		{src:"sounds/right.mp3?1644171675509", id:"right"},
+		{src:"sounds/wrong.mp3?1644171675509", id:"wrong"},
+		{src:"sounds/music.mp3?1644171675509", id:"music"},
+		{src:"sounds/windMusic.mp3?1644171675509", id:"windMusic"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644171675509", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1644171675509", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/css.js?1644171675509", id:"an.CSS"},
+		{src:"components/ui/src/combobox.js?1644171675509", id:"an.ComboBox"}
 	],
 	preloads: []
 };
