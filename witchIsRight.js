@@ -2,10 +2,71 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
+lib.webFontTxtInst = {}; 
+var loadedTypekitCount = 0;
+var loadedGoogleCount = 0;
+var gFontsUpdateCacheList = [];
+var tFontsUpdateCacheList = [];
 var rect; // used to reference frame bounds
 lib.ssMetadata = [];
 
 
+
+lib.updateListCache = function (cacheList) {		
+	for(var i = 0; i < cacheList.length; i++) {		
+		if(cacheList[i].cacheCanvas)		
+			cacheList[i].updateCache();		
+	}		
+};		
+
+lib.addElementsToCache = function (textInst, cacheList) {		
+	var cur = textInst;		
+	while(cur != null && cur != exportRoot) {		
+		if(cacheList.indexOf(cur) != -1)		
+			break;		
+		cur = cur.parent;		
+	}		
+	if(cur != exportRoot) {		
+		var cur2 = textInst;		
+		var index = cacheList.indexOf(cur);		
+		while(cur2 != null && cur2 != cur) {		
+			cacheList.splice(index, 0, cur2);		
+			cur2 = cur2.parent;		
+			index++;		
+		}		
+	}		
+	else {		
+		cur = textInst;		
+		while(cur != null && cur != exportRoot) {		
+			cacheList.push(cur);		
+			cur = cur.parent;		
+		}		
+	}		
+};		
+
+lib.gfontAvailable = function(family, totalGoogleCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
+
+	loadedGoogleCount++;		
+	if(loadedGoogleCount == totalGoogleCount) {		
+		lib.updateListCache(gFontsUpdateCacheList);		
+	}		
+};		
+
+lib.tfontAvailable = function(family, totalTypekitCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
+
+	loadedTypekitCount++;		
+	if(loadedTypekitCount == totalTypekitCount) {		
+		lib.updateListCache(tFontsUpdateCacheList);		
+	}		
+};
 (lib.AnMovieClip = function(){
 	this.actionFrames = [];
 	this.ignorePause = false;
@@ -645,7 +706,7 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(-133,-37,266,76);
-p.frameBounds = [rect, rect=new cjs.Rectangle(-146,-37,296,194.3), rect];
+p.frameBounds = [rect, rect=new cjs.Rectangle(-146,-37,296,76), rect];
 
 
 (lib.starsSuccess2 = function(mode,startPosition,loop,reversed) {
@@ -1857,12 +1918,16 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2));
 
 	// txt
-	this.text = new cjs.Text("צאו לדרך", "30px 'Varela Round'", "#44296A");
+	this.text = new cjs.Text("צאו לדרך", "normal 400 30px 'Varela Round'", "#44296A");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 41;
 	this.text.lineWidth = 191;
 	this.text.parent = this;
 	this.text.setTransform(0,-15.9);
+	if(!lib.properties.webfonts['Varela Round']) {
+		lib.webFontTxtInst['Varela Round'] = lib.webFontTxtInst['Varela Round'] || [];
+		lib.webFontTxtInst['Varela Round'].push(this.text);
+	}
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(2));
 
@@ -25736,15 +25801,15 @@ if (reversed == null) { reversed = false; }
 
 	this.shape_8 = new cjs.Shape();
 	this.shape_8.graphics.f().s("#1C1C1B").ss(0.5).p("AA+AAIh7AA");
-	this.shape_8.setTransform(-100.313,7.7578,1.2157,1.2157);
+	this.shape_8.setTransform(-100.3131,7.7569,1.2156,1.2156);
 
 	this.shape_9 = new cjs.Shape();
 	this.shape_9.graphics.f().s("#1C1C1B").ss(0.5).p("AA6AAIhzAA");
-	this.shape_9.setTransform(-95.1768,4.9618,1.2157,1.2157);
+	this.shape_9.setTransform(-95.1771,4.961,1.2156,1.2156);
 
 	this.shape_10 = new cjs.Shape();
 	this.shape_10.graphics.f().s("#1C1C1B").ss(0.5).p("AA1AAIhpAA");
-	this.shape_10.setTransform(-88.7946,2.7737,1.2157,1.2157);
+	this.shape_10.setTransform(-88.7951,2.7729,1.2156,1.2156);
 
 	this.shape_11 = new cjs.Shape();
 	this.shape_11.graphics.f().s("#6D5099").p("Ag2AAQAAAXAQAQQAQAQAWAAQAXAAAPgQQARgQAAgXQAAgVgRgRQgPgQgXAAQgWAAgQAQQgQARAAAVg");
@@ -25764,7 +25829,7 @@ if (reversed == null) { reversed = false; }
 
 	this.speed2 = new lib.speed2();
 	this.speed2.name = "speed2";
-	this.speed2.setTransform(129.9,-1.95,1.4942,1.4942,0,0,0,4.7,4.2);
+	this.speed2.setTransform(129.9,-1.85,1.4942,1.4942,0,0,0,4.8,4.2);
 
 	this.speed1 = new lib.speed1();
 	this.speed1.name = "speed1";
@@ -25775,19 +25840,19 @@ if (reversed == null) { reversed = false; }
 	this.speed0.setTransform(-30.8,-3.5,1.4944,1.4944,0,0,0,4.3,3.6);
 
 	this.instance_1 = new lib.witchBlack();
-	this.instance_1.setTransform(19.25,-4.9,1.2143,1.2143,0,0,0,21.7,14.6);
+	this.instance_1.setTransform(19.35,-4.85,1.2143,1.2143,0,0,0,21.6,14.5);
 
 	this.shape_15 = new cjs.Shape();
 	this.shape_15.graphics.f().s("#6D5099").ss(2).p("AkSAAIIlAB");
 	this.shape_15.setTransform(9.586,-3.7202,1.2156,1.2156);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.speed1,p:{regX:5.7,regY:4,scaleX:1.5606,scaleY:1.5606,x:51.9,y:-3.25}},{t:this.speed2,p:{regX:4.7,regY:4.2,scaleX:1.4942,scaleY:1.4942,x:129.9,y:-1.95}},{t:this.shape_14},{t:this.shape_13,p:{scaleX:1.6935,scaleY:1.2162,x:90.4482,y:-3.1733}},{t:this.shape_12,p:{scaleX:1.3269,scaleY:1.3269,x:-29.28,y:-2.897}},{t:this.shape_11,p:{scaleX:1.3269,scaleY:1.3269,x:-29.28,y:-2.897}},{t:this.shape_10,p:{scaleX:1.2157,scaleY:1.2157,x:-88.7946,y:2.7737}},{t:this.shape_9,p:{scaleX:1.2157,scaleY:1.2157,x:-95.1768,y:4.9618}},{t:this.shape_8,p:{scaleX:1.2157,scaleY:1.2157,x:-100.313,y:7.7578}},{t:this.instance},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.speed2,p:{regX:4.9,regY:4.1,scaleX:1.4941,scaleY:1.4941,x:131.05,y:-3}},{t:this.shape_15,p:{scaleX:1.2156,scaleY:1.2156,x:9.586,y:-3.7202}},{t:this.shape_13,p:{scaleX:1.6927,scaleY:1.2156,x:90.3421,y:-3.5365}},{t:this.shape_12,p:{scaleX:1.3264,scaleY:1.3264,x:49.3813,y:-2.9454}},{t:this.shape_11,p:{scaleX:1.3264,scaleY:1.3264,x:49.3813,y:-2.9454}},{t:this.instance_1,p:{regX:21.7,regY:14.6,scaleX:1.2143,scaleY:1.2143,x:19.25,y:-4.9}},{t:this.shape_10,p:{scaleX:1.2143,scaleY:1.2143,x:-9.4155,y:5.8403}},{t:this.shape_9,p:{scaleX:1.2143,scaleY:1.2143,x:-15.7907,y:8.0261}},{t:this.shape_8,p:{scaleX:1.2143,scaleY:1.2143,x:-20.9212,y:10.819}},{t:this.speed0,p:{regX:4.3,regY:3.6,scaleX:1.4944,scaleY:1.4944,y:-3.5}},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_15,p:{scaleX:1.2148,scaleY:1.2148,x:9.5767,y:-3.7176}},{t:this.shape_13,p:{scaleX:1.6924,scaleY:1.2153,x:88.3497,y:-2.593}},{t:this.shape_12,p:{scaleX:1.3261,scaleY:1.3261,x:126.4865,y:-2.9446}},{t:this.shape_11,p:{scaleX:1.3261,scaleY:1.3261,x:126.4865,y:-2.9446}},{t:this.instance_1,p:{regX:25.4,regY:14.2,scaleX:1.214,scaleY:1.214,x:97.75,y:-4.85}},{t:this.shape_10,p:{scaleX:1.214,scaleY:1.214,x:67.63,y:6.433}},{t:this.shape_9,p:{scaleX:1.214,scaleY:1.214,x:61.2563,y:8.6182}},{t:this.shape_8,p:{scaleX:1.214,scaleY:1.214,x:56.127,y:11.4105}},{t:this.speed0,p:{regX:4.2,regY:3.3,scaleX:1.4942,scaleY:1.4942,y:-3.4}},{t:this.speed1,p:{regX:5.6,regY:3.3,scaleX:1.4942,scaleY:1.4942,x:49.3,y:-3.4}},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.speed1,p:{regX:5.7,regY:4,scaleX:1.5606,scaleY:1.5606,x:51.9,y:-3.25}},{t:this.speed2,p:{regX:4.8,regY:4.2,scaleX:1.4942,scaleY:1.4942,x:129.9,y:-1.85}},{t:this.shape_14},{t:this.shape_13,p:{scaleX:1.6935,scaleY:1.2162,x:90.4482,y:-3.1733}},{t:this.shape_12,p:{scaleX:1.3269,scaleY:1.3269,x:-29.28,y:-2.897}},{t:this.shape_11,p:{scaleX:1.3269,scaleY:1.3269,x:-29.28,y:-2.897}},{t:this.shape_10,p:{scaleX:1.2156,scaleY:1.2156,x:-88.7951,y:2.7729}},{t:this.shape_9,p:{scaleX:1.2156,scaleY:1.2156,x:-95.1771,y:4.961}},{t:this.shape_8,p:{scaleX:1.2156,scaleY:1.2156,x:-100.3131,y:7.7569}},{t:this.instance},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.speed2,p:{regX:4.9,regY:4.1,scaleX:1.4941,scaleY:1.4941,x:131.05,y:-3}},{t:this.shape_15,p:{scaleX:1.2156,scaleY:1.2156,x:9.586,y:-3.7202}},{t:this.shape_13,p:{scaleX:1.6927,scaleY:1.2156,x:90.3421,y:-3.5365}},{t:this.shape_12,p:{scaleX:1.3264,scaleY:1.3264,x:49.3813,y:-2.9454}},{t:this.shape_11,p:{scaleX:1.3264,scaleY:1.3264,x:49.3813,y:-2.9454}},{t:this.instance_1,p:{regX:21.6,regY:14.5,scaleX:1.2143,scaleY:1.2143,x:19.35,y:-4.85}},{t:this.shape_10,p:{scaleX:1.2143,scaleY:1.2143,x:-9.4164,y:5.8887}},{t:this.shape_9,p:{scaleX:1.2143,scaleY:1.2143,x:-15.7913,y:8.0744}},{t:this.shape_8,p:{scaleX:1.2143,scaleY:1.2143,x:-20.9216,y:10.8672}},{t:this.speed0,p:{regX:4.3,regY:3.6,scaleX:1.4944,scaleY:1.4944,y:-3.5}},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).to({state:[{t:this.shape_15,p:{scaleX:1.2147,scaleY:1.2147,x:9.5764,y:-3.7175}},{t:this.shape_13,p:{scaleX:1.6924,scaleY:1.2153,x:88.3497,y:-2.593}},{t:this.shape_12,p:{scaleX:1.3261,scaleY:1.3261,x:126.4865,y:-2.9446}},{t:this.shape_11,p:{scaleX:1.3261,scaleY:1.3261,x:126.4865,y:-2.9446}},{t:this.instance_1,p:{regX:25.4,regY:14.1,scaleX:1.214,scaleY:1.214,x:97.8,y:-4.8}},{t:this.shape_10,p:{scaleX:1.214,scaleY:1.214,x:67.679,y:6.4814}},{t:this.shape_9,p:{scaleX:1.214,scaleY:1.214,x:61.3057,y:8.6666}},{t:this.shape_8,p:{scaleX:1.214,scaleY:1.214,x:56.1766,y:11.4587}},{t:this.speed0,p:{regX:4.2,regY:3.3,scaleX:1.4942,scaleY:1.4942,y:-3.4}},{t:this.speed1,p:{regX:5.6,regY:3.3,scaleX:1.4942,scaleY:1.4942,x:49.3,y:-3.4}},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = rect = new cjs.Rectangle(-108.8,-27.7,255.7,53.3);
-p.frameBounds = [rect, new cjs.Rectangle(-48,-22.6,194.9,48.3), new cjs.Rectangle(-48,-22.1,194.9,47.7)];
+p.frameBounds = [rect, new cjs.Rectangle(-48,-22.4,194.9,48.1), new cjs.Rectangle(-48,-21.9,194.9,47.5)];
 
 
 (lib.animationwitch = function(mode,startPosition,loop,reversed) {
@@ -27055,10 +27120,10 @@ if (reversed == null) { reversed = false; }
 			progress.y = 32;
 			progress.correct.text = progressCounter;
 			progress.correct.color = "white";
-			progress.correct.font = "14pt Varela round";
+			progress.correct.font = "14pt ''Varela Round''";
 			progress.total.text = myGame[1].length + "/";
 			progress.total.color = "white";
-			progress.total.font = "14pt Varela round";
+			progress.total.font = "14pt 'Varela Round'";
 			speed = new lib.speed(); //מד מהירות
 			stage.addChild(speed);
 			speed.x = 95;
@@ -27073,10 +27138,11 @@ if (reversed == null) { reversed = false; }
 			howToPlay.y=40;
 			howToPlay.gotoAndPlay(0);
 			subject.subjectName.color = "white";
-			subject.subjectName.font = "15pt Varela round";
+			subject.subjectName.font = "15pt 'Varela Round'";
 		
 			if (gameCode == 1) { //אם המשתמש בחר במשחק הראשון
 				subject.subjectName.text = "אלרגיות";
+				subject.subjectName.font = "'Varela Round'";
 				glutenFree = new lib.glutenFree();
 				stage.addChild(glutenFree);
 				glutenFree.x = 680;
@@ -27084,6 +27150,7 @@ if (reversed == null) { reversed = false; }
 				moon.quesTxt.textalign="right";
 				moon.quesTxt.lineWidth = 450; //הגדרת שבירת שורה
 				moon.quesTxt.text = "אספו את כל דפי המתכונים עליהם מופיע מוצר או מאכל אשר אינו מכיל גלוטן בתצורתו המקורית";
+				moon.quesTxt.font = "'Varela Round'";
 			}
 		
 			if (gameCode == 2) { //אם המשתמש בחר במשחק השני
@@ -27255,7 +27322,7 @@ if (reversed == null) { reversed = false; }
 					if (myGame[rndTrueFalse][rndOption][1] == "TXT") { //אם מדובר בתוכן שהוא טקסט
 						//כל ההגדרות שנוגעות לטקסט בתוך הפתק
 						myTxt = new createjs.Text();
-						myTxt.font = "19pt Varela round";
+						myTxt.font = "19pt 'Varela Round'";
 						myTxt.textBaseline = "middle";
 						myTxt.lineWidth = 100; //הגדרת שבירת שורה
 						myTxt.text = myGame[rndTrueFalse][rndOption][0]; //השמת הטקסט כפי שמופיע בתא הראשון במערך בפריט שהוגרל
@@ -27263,7 +27330,7 @@ if (reversed == null) { reversed = false; }
 						myTxt.textAlign = "center";
 						myTxt.name = "txt" + note.name;
 						if (myGame[rndTrueFalse][rndOption][0].length > 20) { //אם יש יותר מ 25 תווים לבצע יישור לימין
-							myTxt.font = "17pt Varela round";
+							myTxt.font = "17pt 'Varela Round'";
 							myTxt.x = -20;
 							myTxt.y = -40;
 							myTxt.lineWidth = 130; //הגדרת שבירת שורה
@@ -27591,7 +27658,7 @@ if (reversed == null) { reversed = false; }
 			backToStartBTN.y = -20;
 			backToStartBTN.addEventListener("click", backToStartFunc);
 			finishBG.totalTime.text = calculateTotalTime();
-			finishBG.totalTime.font = "22pt Varela round";
+			finishBG.totalTime.font = "22pt 'Varela Round'";
 			finishBG.totalTime.color = "white";
 		
 		
@@ -27605,14 +27672,14 @@ if (reversed == null) { reversed = false; }
 			}
 		
 			finishBG.mistakes.text = mistakesCounter;
-			finishBG.mistakes.font = "22pt Varela round";
+			finishBG.mistakes.font = "22pt 'Varela Round'";
 			finishBG.mistakes.color = "white";
 			var arraysLength = myResult[0].length + myResult[1].length;
 			grade = Math.floor((1 - (mistakesCounter / arraysLength)) * 100); //חישוב ציון
 			finishBG.gradeTxt.text = grade;
-			finishBG.gradeTxt.font = "22pt Varela round";
-			finishBG.titleT.font = "18pt Varela round";
-			finishBG.titleF.font = "18pt Varela round";
+			finishBG.gradeTxt.font = "22pt 'Varela Round'";
+			finishBG.titleT.font = "18pt 'Varela Round'";
+			finishBG.titleF.font = "18pt 'Varela Round'";
 			finishBG.titleT.color = "white";
 			finishBG.titleF.color = "white";
 			finishBG.titleT.textAlign = "center";
@@ -27668,13 +27735,13 @@ if (reversed == null) { reversed = false; }
 				if (badResults[b][1] == "TXT") { //אם מדובר בתוכן שהוא טקסט
 					//כל ההגדרות שנוגעות לטקסט בתוך הפתק
 					answerTxt = new createjs.Text();
-					answerTxt.font = "14pt Varela round";
+					answerTxt.font = "14pt 'Varela Round'";
 					answerTxt.textBaseline = "middle";
 					answerTxt.lineWidth = 100; //הגדרת שבירת שורה
 					answerTxt.text = badResults[b][0];
 					answerTxt.textAlign = "center";
 					if (badResults[b][0].length > 20) { //אם יש יותר מ 25 תווים לבצע יישור לימין
-						answerTxt.font = "12pt Varela round";
+						answerTxt.font = "12pt 'Varela Round'";
 						answerTxt.x = -4;
 						answerTxt.y = -45;
 					}
@@ -27715,13 +27782,13 @@ if (reversed == null) { reversed = false; }
 				if (goodResults[a][1] == "TXT") { //אם מדובר בתוכן שהוא טקסט
 					//כל ההגדרות שנוגעות לטקסט בתוך הפתק
 					answerTxt = new createjs.Text();
-					answerTxt.font = "14pt Varela round";
+					answerTxt.font = "14pt 'Varela Round'";
 					answerTxt.textBaseline = "middle";
 					answerTxt.lineWidth = 100; //הגדרת שבירת שורה
 					answerTxt.text = goodResults[a][0];
 					answerTxt.textAlign = "center";
 					if (goodResults[a][0].length > 20) { //אם יש יותר מ 25 תווים לבצע יישור לימין
-						answerTxt.font = "12pt Varela round";
+						answerTxt.font = "12pt 'Varela Round'";
 						answerTxt.x = -4;
 						answerTxt.y = -45;
 					}
@@ -27925,84 +27992,85 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	opacity: 1.00,
+	webfonts: {},
 	manifest: [
-		{src:"images/LinkedFile.png?1644177301947", id:"LinkedFile"},
-		{src:"images/Path_0.png?1644177301947", id:"Path_0"},
-		{src:"images/Path_0_1.png?1644177301947", id:"Path_0_1"},
-		{src:"images/Path_0_2.png?1644177301947", id:"Path_0_2"},
-		{src:"images/Path_1_0.png?1644177301947", id:"Path_1_0"},
-		{src:"images/Path_1_2.png?1644177301947", id:"Path_1_2"},
-		{src:"images/Path_1_2_1.png?1644177301947", id:"Path_1_2_1"},
-		{src:"images/Path_1_4.png?1644177301948", id:"Path_1_4"},
-		{src:"images/Path_2.png?1644177301948", id:"Path_2"},
-		{src:"images/Path_2_0.png?1644177301948", id:"Path_2_0"},
-		{src:"images/Path_2_1.png?1644177301948", id:"Path_2_1"},
-		{src:"images/Path_2_11.png?1644177301948", id:"Path_2_11"},
-		{src:"images/Path_2_2.png?1644177301948", id:"Path_2_2"},
-		{src:"images/Path_2_3.png?1644177301948", id:"Path_2_3"},
-		{src:"images/Path_2_4.png?1644177301948", id:"Path_2_4"},
-		{src:"images/Path_2_5.png?1644177301948", id:"Path_2_5"},
-		{src:"images/Path_2_6.png?1644177301948", id:"Path_2_6"},
-		{src:"images/Path_2_7.png?1644177301948", id:"Path_2_7"},
-		{src:"images/Path_2_8.png?1644177301948", id:"Path_2_8"},
-		{src:"images/Path_2_9.png?1644177301948", id:"Path_2_9"},
-		{src:"images/Path_35.png?1644177301948", id:"Path_35"},
-		{src:"images/Path_3_0.png?1644177301948", id:"Path_3_0"},
-		{src:"images/Path_3_1.png?1644177301948", id:"Path_3_1"},
-		{src:"images/Path_3_2.png?1644177301948", id:"Path_3_2"},
-		{src:"images/Path_4.png?1644177301948", id:"Path_4"},
-		{src:"images/Path_4_0.png?1644177301948", id:"Path_4_0"},
-		{src:"images/Path_4_1.png?1644177301948", id:"Path_4_1"},
-		{src:"images/Path_4_3.png?1644177301948", id:"Path_4_3"},
-		{src:"images/Path_5_1.png?1644177301948", id:"Path_5_1"},
-		{src:"images/Path_6.png?1644177301948", id:"Path_6"},
-		{src:"images/Path_6_1.png?1644177301948", id:"Path_6_1"},
-		{src:"images/Rectangle_0.png?1644177301948", id:"Rectangle_0"},
-		{src:"images/Rectangle_1_0.png?1644177301948", id:"Rectangle_1_0"},
-		{src:"images/Rectangle_2_0.png?1644177301948", id:"Rectangle_2_0"},
-		{src:"images/Rectangle_3_0.png?1644177301948", id:"Rectangle_3_0"},
-		{src:"images/Rectangle_4_0.png?1644177301948", id:"Rectangle_4_0"},
-		{src:"images/Rectangle_5_0.png?1644177301948", id:"Rectangle_5_0"},
-		{src:"images/Rectangle_6_0.png?1644177301948", id:"Rectangle_6_0"},
-		{src:"images/beginningAnimationBG.png?1644177301948", id:"beginningAnimationBG"},
-		{src:"images/ComboBox.png?1644177301948", id:"ComboBox"},
-		{src:"images/CSS.png?1644177301948", id:"CSS"},
-		{src:"images/endAnimationBG.png?1644177301948", id:"endAnimationBG"},
-		{src:"images/endface15.png?1644177301948", id:"endface15"},
-		{src:"images/face15.png?1644177301948", id:"face15"},
-		{src:"images/green.png?1644177301948", id:"green"},
-		{src:"images/red.png?1644177301948", id:"red"},
-		{src:"images/yellow.png?1644177301948", id:"yellow"},
-		{src:"images/milk.png?1644177301948", id:"milk"},
-		{src:"images/snail.png?1644177301948", id:"snail"},
-		{src:"images/snake.png?1644177301948", id:"snake"},
-		{src:"images/groundsel.png?1644177301948", id:"groundsel"},
-		{src:"images/passover.png?1644177301948", id:"passover"},
-		{src:"images/pizza.png?1644177301948", id:"pizza"},
-		{src:"images/corason.png?1644177301948", id:"corason"},
-		{src:"images/snow.png?1644177301948", id:"snow"},
-		{src:"images/apple.png?1644177301948", id:"apple"},
-		{src:"images/watermelon.png?1644177301948", id:"watermelon"},
-		{src:"images/rice.png?1644177301948", id:"rice"},
-		{src:"images/light.png?1644177301948", id:"light"},
-		{src:"images/egg.png?1644177301948", id:"egg"},
-		{src:"images/beer.png?1644177301948", id:"beer"},
-		{src:"images/cheese.png?1644177301948", id:"cheese"},
-		{src:"images/ירח_.png?1644177301948", id:"ירח"},
-		{src:"images/bread.png?1644177301948", id:"bread"},
-		{src:"images/backToStartBTN.png?1644177301948", id:"backToStartBTN"},
-		{src:"images/מסךביצועים_.png?1644177301948", id:"מסךביצועים"},
-		{src:"images/endScreen.png?1644177301948", id:"endScreen"},
-		{src:"images/returnGameBTN.png?1644177301948", id:"returnGameBTN"},
-		{src:"sounds/animationMusic.mp3?1644177301948", id:"animationMusic"},
-		{src:"sounds/right.mp3?1644177301948", id:"right"},
-		{src:"sounds/wrong.mp3?1644177301948", id:"wrong"},
-		{src:"sounds/music.mp3?1644177301948", id:"music"},
-		{src:"sounds/windMusic.mp3?1644177301948", id:"windMusic"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644177301948", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1644177301948", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/css.js?1644177301948", id:"an.CSS"},
-		{src:"components/ui/src/combobox.js?1644177301948", id:"an.ComboBox"}
+		{src:"images/LinkedFile.png?1644184636797", id:"LinkedFile"},
+		{src:"images/Path_0.png?1644184636797", id:"Path_0"},
+		{src:"images/Path_0_1.png?1644184636797", id:"Path_0_1"},
+		{src:"images/Path_0_2.png?1644184636797", id:"Path_0_2"},
+		{src:"images/Path_1_0.png?1644184636797", id:"Path_1_0"},
+		{src:"images/Path_1_2.png?1644184636797", id:"Path_1_2"},
+		{src:"images/Path_1_2_1.png?1644184636797", id:"Path_1_2_1"},
+		{src:"images/Path_1_4.png?1644184636797", id:"Path_1_4"},
+		{src:"images/Path_2.png?1644184636797", id:"Path_2"},
+		{src:"images/Path_2_0.png?1644184636797", id:"Path_2_0"},
+		{src:"images/Path_2_1.png?1644184636797", id:"Path_2_1"},
+		{src:"images/Path_2_11.png?1644184636797", id:"Path_2_11"},
+		{src:"images/Path_2_2.png?1644184636797", id:"Path_2_2"},
+		{src:"images/Path_2_3.png?1644184636797", id:"Path_2_3"},
+		{src:"images/Path_2_4.png?1644184636797", id:"Path_2_4"},
+		{src:"images/Path_2_5.png?1644184636797", id:"Path_2_5"},
+		{src:"images/Path_2_6.png?1644184636797", id:"Path_2_6"},
+		{src:"images/Path_2_7.png?1644184636797", id:"Path_2_7"},
+		{src:"images/Path_2_8.png?1644184636797", id:"Path_2_8"},
+		{src:"images/Path_2_9.png?1644184636797", id:"Path_2_9"},
+		{src:"images/Path_35.png?1644184636797", id:"Path_35"},
+		{src:"images/Path_3_0.png?1644184636797", id:"Path_3_0"},
+		{src:"images/Path_3_1.png?1644184636797", id:"Path_3_1"},
+		{src:"images/Path_3_2.png?1644184636797", id:"Path_3_2"},
+		{src:"images/Path_4.png?1644184636797", id:"Path_4"},
+		{src:"images/Path_4_0.png?1644184636797", id:"Path_4_0"},
+		{src:"images/Path_4_1.png?1644184636797", id:"Path_4_1"},
+		{src:"images/Path_4_3.png?1644184636797", id:"Path_4_3"},
+		{src:"images/Path_5_1.png?1644184636797", id:"Path_5_1"},
+		{src:"images/Path_6.png?1644184636797", id:"Path_6"},
+		{src:"images/Path_6_1.png?1644184636797", id:"Path_6_1"},
+		{src:"images/Rectangle_0.png?1644184636797", id:"Rectangle_0"},
+		{src:"images/Rectangle_1_0.png?1644184636797", id:"Rectangle_1_0"},
+		{src:"images/Rectangle_2_0.png?1644184636797", id:"Rectangle_2_0"},
+		{src:"images/Rectangle_3_0.png?1644184636797", id:"Rectangle_3_0"},
+		{src:"images/Rectangle_4_0.png?1644184636797", id:"Rectangle_4_0"},
+		{src:"images/Rectangle_5_0.png?1644184636797", id:"Rectangle_5_0"},
+		{src:"images/Rectangle_6_0.png?1644184636797", id:"Rectangle_6_0"},
+		{src:"images/beginningAnimationBG.png?1644184636797", id:"beginningAnimationBG"},
+		{src:"images/ComboBox.png?1644184636797", id:"ComboBox"},
+		{src:"images/CSS.png?1644184636797", id:"CSS"},
+		{src:"images/endAnimationBG.png?1644184636797", id:"endAnimationBG"},
+		{src:"images/endface15.png?1644184636797", id:"endface15"},
+		{src:"images/face15.png?1644184636797", id:"face15"},
+		{src:"images/green.png?1644184636797", id:"green"},
+		{src:"images/red.png?1644184636797", id:"red"},
+		{src:"images/yellow.png?1644184636797", id:"yellow"},
+		{src:"images/milk.png?1644184636797", id:"milk"},
+		{src:"images/snail.png?1644184636797", id:"snail"},
+		{src:"images/snake.png?1644184636797", id:"snake"},
+		{src:"images/groundsel.png?1644184636797", id:"groundsel"},
+		{src:"images/passover.png?1644184636797", id:"passover"},
+		{src:"images/pizza.png?1644184636797", id:"pizza"},
+		{src:"images/corason.png?1644184636797", id:"corason"},
+		{src:"images/snow.png?1644184636797", id:"snow"},
+		{src:"images/apple.png?1644184636797", id:"apple"},
+		{src:"images/watermelon.png?1644184636797", id:"watermelon"},
+		{src:"images/rice.png?1644184636797", id:"rice"},
+		{src:"images/light.png?1644184636797", id:"light"},
+		{src:"images/egg.png?1644184636797", id:"egg"},
+		{src:"images/beer.png?1644184636797", id:"beer"},
+		{src:"images/cheese.png?1644184636797", id:"cheese"},
+		{src:"images/ירח_.png?1644184636797", id:"ירח"},
+		{src:"images/bread.png?1644184636797", id:"bread"},
+		{src:"images/backToStartBTN.png?1644184636797", id:"backToStartBTN"},
+		{src:"images/מסךביצועים_.png?1644184636797", id:"מסךביצועים"},
+		{src:"images/endScreen.png?1644184636797", id:"endScreen"},
+		{src:"images/returnGameBTN.png?1644184636797", id:"returnGameBTN"},
+		{src:"sounds/animationMusic.mp3?1644184636797", id:"animationMusic"},
+		{src:"sounds/right.mp3?1644184636797", id:"right"},
+		{src:"sounds/wrong.mp3?1644184636797", id:"wrong"},
+		{src:"sounds/music.mp3?1644184636797", id:"music"},
+		{src:"sounds/windMusic.mp3?1644184636797", id:"windMusic"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1644184636797", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1644184636797", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/css.js?1644184636797", id:"an.CSS"},
+		{src:"components/ui/src/combobox.js?1644184636797", id:"an.ComboBox"}
 	],
 	preloads: []
 };
